@@ -26,6 +26,7 @@ cd libgeneral ; ./autogen.sh ; make ; sudo make install ; cd ..
 cd libfragmentzip ; ./autogen.sh ; make ; sudo make install ; cd ..
 cd img4tool ; ./autogen.sh ; make ; sudo make install ; cd ..
 cd futurerestore ; ./autogen.sh ; make ; sudo make install ; cd ..
+ldconfig
 
 echo
 echo "Done"
