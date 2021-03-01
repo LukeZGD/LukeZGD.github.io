@@ -2,7 +2,7 @@
 trap 'echo "Exiting..."' EXIT
 
 echo "futurerestore compile script for Linux"
-echo "Supported distros: Ubuntu 20.04 and 20.10, Fedora 33"
+echo "Supported distros: Ubuntu 20.04 and 20.10, Fedora 33, Arch Linux"
 echo
 
 . /etc/os-release
@@ -14,8 +14,10 @@ if [[ $UBUNTU_CODENAME == "focal" ]] || [[ $UBUNTU_CODENAME == "groovy" ]]; then
 elif [[ $ID == "fedora" ]] && (( $VERSION_ID >= 33 )); then
     sudo dnf install -y automake gcc g++ python3-devel git libcurl-devel libtool libusb-devel make libzip-devel openssl-devel pkgconfig readline-devel zlib-devel
 elif [[ $ID == "arch" ]] || [[ $ID_LIKE == "arch" ]]; then
-    echo "Arch users can install from the AUR: futurerestore-marijuanarm-git"
-    exit
+    echo "Arch users can install from the AUR instead: futurerestore-marijuanarm-git"
+    echo "Press ENTER to continue to compile (or Ctrl+C to cancel)"
+    read -s
+    sudo pacman -Syu --noconfirm --needed base-devel curl libzip openssl python
 else
     echo "Your distro is not supported by this compile script"
     exit 1
@@ -42,7 +44,6 @@ cd libgeneral ; ./autogen.sh --enable-static --disable-shared ; make ; sudo make
 cd libfragmentzip ; ./autogen.sh --enable-static --disable-shared ; make ; sudo make install ; cd ..
 cd img4tool ; ./autogen.sh --enable-static --disable-shared ; make ; sudo make install ; cd ..
 cd futurerestore ; ./autogen.sh ; make ; sudo make install ; cd ..
-
 sudo ldconfig
 
 echo
