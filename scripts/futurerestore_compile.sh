@@ -7,7 +7,6 @@ echo
 
 . /etc/os-release
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib64/pkgconfig:/usr/lib/pkgconfig
-mkdir build ; cd build
 if [[ $UBUNTU_CODENAME == "focal" ]] || [[ $UBUNTU_CODENAME == "groovy" ]]; then
     sudo add-apt-repository universe
     sudo apt update
