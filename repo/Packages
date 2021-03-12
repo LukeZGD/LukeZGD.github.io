@@ -17,10 +17,10 @@ Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: net.tihmstar.etasonuntether, bsdiff, firmware (= 8.4.1)
 Filename: ./debs/com.lukezgd.etasonjbdisable-1.0.0_iphoneos-arm.deb
-Size: 1078
-MD5sum: 769659d26b30a4e39e94477a820a488d
-SHA1: 4daa60cb59208b5c41a5c93c9467298588db1aa2
-SHA256: 19d75d3212538bfa9566b2ec212849db48f239827eb477106a78fe29f79dea17
+Size: 1108
+MD5sum: 493a4004ebe14cc65d3aa1349dd40aad
+SHA1: 343c7138c5817927eda69e78e861468db27cb722
+SHA256: 421ef4c7a04e248426bbd421efc74087f98428010b39cf598fdcf4a6da61aae3
 Section: System
 Description: Disable EtasonJB's "bootloop protection"
 Author: LukeZGD
