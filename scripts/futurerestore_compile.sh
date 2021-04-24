@@ -2,12 +2,12 @@
 trap 'echo "Exiting..."' EXIT
 
 echo "futurerestore compile script for Linux"
-echo "Supported distros: Ubuntu 20.04 and 20.10, Fedora 33, Arch Linux"
+echo "Supported distros: Ubuntu 20.04, 20.10, 21.04, Fedora 33 to 34, Arch Linux"
 echo
 
 . /etc/os-release
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib64/pkgconfig:/usr/lib/pkgconfig
-if [[ $UBUNTU_CODENAME == "focal" ]] || [[ $UBUNTU_CODENAME == "groovy" ]]; then
+if [[ $UBUNTU_CODENAME == "focal" ]] || [[ $UBUNTU_CODENAME == "groovy" ]] || [[ $UBUNTU_CODENAME == "hirsute" ]]; then
     sudo add-apt-repository universe
     sudo apt update
     sudo apt install -y pkg-config libtool automake g++ python-dev libzip-dev libcurl4-openssl-dev cmake libssl-dev libusb-1.0-0-dev libreadline-dev libbz2-dev libpng-dev git
@@ -15,7 +15,7 @@ elif [[ $ID == "fedora" ]] && (( $VERSION_ID >= 33 )); then
     sudo dnf install -y automake gcc g++ python3-devel git libcurl-devel libtool libusb-devel make libzip-devel openssl-devel pkgconfig readline-devel zlib-devel
 elif [[ $ID == "arch" ]] || [[ $ID_LIKE == "arch" ]]; then
     echo "Arch users can install from the AUR instead: futurerestore-marijuanarm-git"
-    echo "Press ENTER to continue to compile (or Ctrl+C to cancel)"
+    echo "Press ENTER to continue to compile anyway (or Ctrl+C to cancel)"
     read -s
     sudo pacman -Syu --noconfirm --needed base-devel curl libzip openssl python
 else
@@ -31,9 +31,9 @@ git clone https://github.com/libimobiledevice/libusbmuxd
 git clone https://github.com/libimobiledevice/libimobiledevice 
 git clone https://github.com/lzfse/lzfse
 git clone https://github.com/libimobiledevice/libirecovery
-git clone https://github.com/LukeZGD/libgeneral
-git clone https://github.com/LukeZGD/libfragmentzip
-git clone https://github.com/LukeZGD/img4tool
+git clone https://github.com/tihmstar/libgeneral
+git clone https://github.com/tihmstar/libfragmentzip
+git clone https://github.com/tihmstar/img4tool
 git clone --recursive https://github.com/marijuanARM/futurerestore
 cd libplist ; ./autogen.sh ; make ; sudo make install ; cd ..
 cd libusbmuxd ; ./autogen.sh ; make ; sudo make install ; cd ..
