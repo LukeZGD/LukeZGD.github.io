@@ -41,6 +41,20 @@ Description: Fix missing jailbreak app icons. Reboot after installing to apply c
 Author: LukeZGD
 Name: Jailbreak App Icons Fix
 
+Package: com.lukezgd.kDFUBundles
+Version: 1.0.0
+Maintainer: LukeZGD
+Architecture: iphoneos-arm
+Depends: org.tihmstar.kDFUApp
+Filename: ./debs/com.lukezgd.kDFUBundles-1.0.0_iphoneos-arm.deb
+MD5sum: cbbfdb0a5f09d850ef77ad3edc40591a
+SHA1: ae9d81cf29f78b2e8c9dd6be64887887c71ce9bc
+SHA256: c837e6b2be0e2bc85c562631e5d3f2425073073c9a7bb58ae0ba4ef9fdf001fc
+Description: More device support for kDFUApp
+Section: System
+Author: LukeZGD
+Name: kDFUApp Bundles
+
 Package: kloader
 Version: 1.0
 Architecture: iphoneos-arm
