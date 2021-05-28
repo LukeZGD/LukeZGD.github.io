@@ -47,9 +47,9 @@ Maintainer: LukeZGD
 Architecture: iphoneos-arm
 Depends: org.tihmstar.kDFUApp
 Filename: ./debs/com.lukezgd.kDFUBundles-1.0.0_iphoneos-arm.deb
-MD5sum: cbbfdb0a5f09d850ef77ad3edc40591a
-SHA1: ae9d81cf29f78b2e8c9dd6be64887887c71ce9bc
-SHA256: c837e6b2be0e2bc85c562631e5d3f2425073073c9a7bb58ae0ba4ef9fdf001fc
+MD5sum: dc73a0c4cd33c8c70f455165ddd83307
+SHA1: c111833a9121c358535edcf044373f0b1530e3d8
+SHA256: 1ebd333b4b7e0db5f4c0c25c64a7aef393efd69b3b4eab47b0516b122002b16e
 Description: More device support for kDFUApp
 Section: System
 Author: LukeZGD
