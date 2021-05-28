@@ -62,7 +62,7 @@ Package: libcrippy-1.0.0
 Version: 1.0
 Architecture: iphoneos-arm
 Depends: firmware (>= 6.0)
-Firmware: ./debs/libcrippy-1.0.0.deb
+Filename: ./debs/libcrippy-1.0.0.deb
 Size: 15858
 MD5sum: d0057e3946594ac6c18b7112383955e5
 SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
