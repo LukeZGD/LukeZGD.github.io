@@ -128,18 +128,3 @@ Description: easy way to get into kDFU mode
 	<br>NOT COMPATIBLE WITH 64BIT DEVICES!
 Author: tihmstar
 Name: kDFUApp
-
-Package: ml.tdogg9401.infigo
-Version: 2.0.1
-Architecture: iphoneos-arm
-Maintainer: Trevor Schmitt <tdogg9401@gmail.com>
-Conflicts: ml.tdogg9401.daemonfixup
-Filename: ./debs/ml.tdogg9401.infigo_2.0.1_iphoneos-arm.deb
-Size: 1328
-MD5sum: 64f62900226de7e33bd87bd4f94b12c4
-SHA1: ec564aba37444a035259947a922afd2253d0b24f
-SHA256: 258e46411a6441b445bc79f5113863c1d72cb4d9a14052f8c9c0b40a67ccb998
-Section: System
-Description: Fixes LaunchDaemons not loading with the EtasonJB and UntetherHomeDepot untethers.
-Author: Trevor Schmitt <tdogg9401@gmail.com>
-Name: Infigo
