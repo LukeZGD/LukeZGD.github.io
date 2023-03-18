@@ -1,0 +1,436 @@
+Package: applebetas.ios.tweak.willow
+Version: 1.2.14
+Architecture: iphoneos-arm
+Maintainer: Ayden Panhuyzen
+Installed-Size: 984
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, dev.ayden.ios.tweak.lib.libdundas
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: debs/applebetas.ios.tweak.willow_1.2.14_iphoneos-arm-ios10.deb
+Size: 331146
+MD5sum: c57934bb957551d38ca352b340201732
+SHA1: 4d634ad27d759139786034094ae2606c0fa65cdb
+SHA256: 389245c770d5f4d4098ac76d7a9cdc5e4af919f648d3e04e0ed4c388e0afe93e
+Section: Tweaks
+Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
+Author: Ayden Panhuyzen
+Name: Ultrasound
+
+Package: com.4nni3.coolcc
+Version: 1:4.0
+Architecture: iphoneos-arm
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 328
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Filename: debs/com.4nni3.coolcc.deb
+Size: 40440
+MD5sum: 6b2db277637ccb354bb2a0e70704df74
+SHA1: 60c8de3b5b8d3674a27788011fa329573bd0c8e3
+SHA256: d18d723c5f8a0ce3e1461bf22def7e80e7876ffaaafd582228d20b592ba13abe
+Section: Tweaks
+Description: Makes ControlCenter cool.
+Author: 4nni3 <4nni3.14@gmail.com>
+Name: CoolCC
+
+Package: com.alexpng.cacheclearerx
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: alex_png <alex.png.cc@gmail.com>
+Installed-Size: 1216
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/com.alexpng.cacheclearerx_1.1_iphoneos-arm.deb
+Size: 1002192
+MD5sum: cd4d56e579c8ae0a4690ab926ab767c2
+SHA1: e49ff880d9aa9ef5bab4253e67341839ae2d3955
+SHA256: 4170ec7662b6fe4d4a6c3e6cccd20cff85d109f186956706f847ac1cf11dab6e
+Section: Tweaks
+Description: Clear applications cache from the storage settings or from the 3D Touch/Force Touch Shortcut.
+Author: alex_png <alex.png.cc@gmail.com>
+Depiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/
+Icon: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/DebIcon.png
+Name: CacheClearerX
+Sileodepiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/cacheclearerx.json
+
+Package: com.ioscreatix.sugarcane
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix, kasiimh1, baptistecdr
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.ioscreatix.sugarcane_1.2.2_iphoneos-arm.deb
+Size: 6170
+MD5sum: 9c63c0031b416bfb1bca3579f19173b7
+SHA1: b2218ecc62ed6066af44441388f1089854c553eb
+SHA256: 409bea76ed4113923fe735fd9797fc60deaa9ac5474947bd23b0cbb4b1099cec
+Section: Tweaks
+Description: Get percentages for the sliders in the Control Center on iOS 11, 12 & 13
+Author: iOS Creatix, kasiimh1
+Name: SugarCane
+
+Package: com.lcampbell0x.dropbear
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 1.0)
+Filename: debs/com.lcampbell0x.dropbear-1.0_iphoneos-arm.deb
+Size: 1832962
+MD5sum: c8f4767f3ae14767eed689fdd5591995
+SHA1: 9fedce104ac61032ecd85f4a9cb9baa60c2b35f4
+SHA256: 5b1058f0b7c6a8cf3fd1aedf0b7a8dbf08266f9e6384a89c5581dd5b60b12549
+Section: System
+Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
+Name: Dropbear
+
+Package: com.lint.undelete
+Version: 1.4.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: lint <apieceoflint@protonmail.com>
+Installed-Size: 2348
+Depends: mobilesubstrate
+Filename: debs/com.lint.undelete_1.4.1-1debug_iphoneos-arm.deb
+Size: 452598
+MD5sum: fa630cef37180d9ff7694c725da9ff7d
+SHA1: 2d4cbb86a63aa88f9fdef30ac2db346adc82a2c1
+SHA256: 5b458866378662bf6a33b59d8732e659802576a9b6cb934b14bafc8d6c3fcefa
+Section: Tweaks
+Description: See "[deleted]" comments and posts without leaving Reddit!
+Author: lint <apieceoflint@protonmail.com>
+Name: TFDidThatSay?
+
+Package: com.lukezgd.etasonjbdisable
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: net.tihmstar.etasonuntether, bsdiff, firmware (= 8.4.1)
+Filename: debs/com.lukezgd.etasonjbdisable-1.0.0_iphoneos-arm.deb
+Size: 1108
+MD5sum: 493a4004ebe14cc65d3aa1349dd40aad
+SHA1: 343c7138c5817927eda69e78e861468db27cb722
+SHA256: 421ef4c7a04e248426bbd421efc74087f98428010b39cf598fdcf4a6da61aae3
+Section: System
+Description: Disable EtasonJB's "bootloop protection"
+Author: LukeZGD
+Name: EtasonJB Disable Bootloop Protection
+
+Package: com.lukezgd.iconsfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: com.ericasadun.utilities
+Filename: debs/com.lukezgd.iconsfix-1.0.0_iphoneos-arm.deb
+Size: 782
+MD5sum: 57f4702f248d4df2f920a26848d4dd18
+SHA1: 2705b23064b8a465b9966b7b730ce557e98d0d6c
+SHA256: db8fe31762756f291d922d6939a898ee37f78b4b94e5a853672cd98be3f14fe7
+Section: System
+Description: Fix missing jailbreak app icons. Reboot after installing to apply changes, then you may remove this package.
+Author: LukeZGD
+Name: Jailbreak App Icons Fix
+
+Package: com.lukezgd.kDFUBundles
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: org.tihmstar.kDFUApp
+Filename: debs/com.lukezgd.kDFUBundles-1.0.1_iphoneos-arm.deb
+Size: 10730
+MD5sum: 96964db28234171b2ebbebfc04239559
+SHA1: f5bff05635caeaeea05237f60a7ae1f2ebb0f1b9
+SHA256: dd55fa1d75cebac3c6423a1ee5405ca680580c6b569f4667869d04fe6951b141
+Section: System
+Description: More device support for kDFUApp
+Author: LukeZGD
+Name: kDFUApp Bundles
+
+Package: com.lukezgd.unthredeh4il
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Pre-Depends: cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.ipod (= 3.1) | cy+model.ipod (= 4.1) | cy+model.ipad (= 1.1), firmware (>= 4.2.6), firmware (<= 5.1.1)
+Replaces: com.unthreadedjb.unthredera1n
+Filename: debs/com.lukezgd.unthredeh4il_1.0.0_iphoneos-arm.deb
+Size: 12114
+MD5sum: 81b80667431b2c0e188064c5d0de5e7a
+SHA1: cf09758598b8905901402bbd86c01c755f66f400
+SHA256: 504d089cf9f6618dfa35642b7ed37094324c54da84e7ca52cdd0d5ef4943679b
+Section: System
+Description: Improved version of unthredera1n untether
+Author: UnthreadedJB
+Name: unthredeh4il
+
+Package: com.parrotgeek.ifilefix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: parrotgeek1 <parrotgeek1@gmail.com>
+Pre-Depends: grep, sed
+Depends: eu.heinelt.ifile
+Filename: debs/ifilefix.deb
+Size: 756
+MD5sum: 29dd062adc54c9db0dfb29aee4a268dc
+SHA1: b0e7c30321448daf149f341e9b869066996890a4
+SHA256: ab604ee96f79aa4163c87fccbb6f379693e4a09bb3d6ab2d79345f053100d8c1
+Section: Tweaks
+Description: Fixes iFile crash on launch.
+Author: parrotgeek1 <parrotgeek1@gmail.com>
+Name: iFile Crash Fix
+
+Package: dev.ayden.ios.tweak.lib.libdundas
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Ayden Panhuyzen
+Installed-Size: 332
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/dev.ayden.ios.tweak.lib.libdundas_1.0.3_iphoneos-arm.deb
+Size: 40022
+MD5sum: 739f3faf6035be1de232833796947f5d
+SHA1: c5be57aeeafc4408e2b54d548b1e59482707ac85
+SHA256: 13f6bbadc25e00384c0f825963aa3769812a9e8737f1609dc530267ac650dc8f
+Section: Development
+Description: Utilities for my tweaks.
+Tag: role::developer
+Author: Ayden Panhuyzen
+Name: libdundas
+
+Package: ipwnderlite
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: debs/ipwnderlite_1.0_iphoneos-arm.deb
+Size: 26124
+MD5sum: 90e2e3cb01baab515108851dd3403a83
+SHA1: 56406947d25ef9abacbda06fb988a11f5f23d93b
+SHA256: a3f3ffdc7baaf6f04160648078b307f74a1e32962d9d561c7436e29c91534a6b
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://dora2ios.github.io/info/ipwnderlite/
+Name: iPwnder Lite
+
+Package: kloader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: debs/kloader-1.0.0.deb
+Size: 7982
+MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
+SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
+SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
+Section: System
+Priority: optional
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+ Do not install this package if you don't know what this is.
+ Installing this on a production device is not recommended.
+Author: winocm, xerub
+Name: kloader
+
+Package: libcrippy-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Filename: debs/libcrippy-1.0.0.deb
+Size: 15858
+MD5sum: d0057e3946594ac6c18b7112383955e5
+SHA1: 175bfec615f2c802a1c0c74ffca649664f036001
+SHA256: f1f3253d43601acbacd12071e1de880a83b2b987b6238a131fc84ef813928465
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libcrippy-1.0.0
+
+Package: libpartialzip-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Filename: debs/libpartialzip-1.0.0.deb
+Size: 6830
+MD5sum: ab609167a1653beda05eb2876f2500bd
+SHA1: cf24410d852a756df9869e99dc3e0075baed092d
+SHA256: 2a0417afeaf3368285d409c396492158632a6c44e8051bc12f2bdb7b8ff0f1d6
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libpartialzip-1.0.0
+
+Package: me.jjolano.alertdismiss
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: jjolano <jjolano@me.com>
+Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Filename: debs/me.jjolano.alertdismiss.deb
+Size: 25240
+MD5sum: 2282ea8ff09e382807e1aa3399996d8d
+SHA1: a0d8427704e3e458e1ed7c373d1ff236c58e1ffc
+SHA256: d7ad8fa1edf908499c807075ee62b947cd1b329300d0dc12cdf79171e69f2fb1
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Add a Force Dismiss button to any UIAlertController.
+Author: jjolano <jjolano@me.com>
+Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.alertdismiss.html
+Icon: https://ios.jjolano.me/assets/me.jjolano.alertdismiss/icon.png
+Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+Name: AlertDismiss
+Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+
+Package: net.arx8x.ultrasoundpatch
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: ARX8x
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: debs/net.arx8x.ultrasoundpatch_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2974
+MD5sum: d38b83f4f840ce2a478a5861a0b5d54d
+SHA1: 7a154acb3916470610ce822702d571366af592f0
+SHA256: 2d6376517a453123a05d11c83b32977ecbb8b9cd682c395cd23f5d50a6c5d0fd
+Section: Tweaks
+Description: Make Ultrasound work on iOS 10 (and below maybe?)
+Author: ARX8x
+Name: Ultrasound patch
+
+Package: net.tihmstar.untetherhomedepot
+Version: 1.4.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.1), firmware (<= 9.3.4)
+Conflicts: cy+cpu.arm64
+Replaces: net.tihmstar.betterhomedepot
+Filename: debs/net.tihmstar.untetherhomedepot.deb
+Size: 22650
+MD5sum: 94e2ea5ebaac343ffc1a7514accc5c24
+SHA1: 375628b9348b730bf75108e5675ed74295909b28
+SHA256: 0988d513c1d7960f63b7944f7d7baae43aa49e63c8995411dd24ad7b1254e5f6
+Section: System
+Priority: optional
+Description: Untether for 9.1-9.3.4 32bit
+ <br>
+ UntetherHomeDepo is an untether package for 32bit devices running 9.1-9.3.4
+ <p>It exploits the Pegasus jsc bug and bootstraps HomeDepot jailbreak.
+ <br>
+ <p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
+ <p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
+ <br>
+ KNOWN BUGS:
+ <p>- openssh daemon doesn't start
+ <br>
+ CHANGELOG:
+ <p>v1.4 added support for 9.2.1
+ <p>     Refusing to install when stage1 doesn't work (to prevent bootloops)
+ <p>v1.3 fixed lwvm patch (bug where 9.3.1 rootfs was ro)
+ <p>v1.2 fixed a bug where having a passcode would disable untether
+ <p>v1.1 fixed deepsleep bug
+ <br>
+ Currently supported device:
+ <p>iPhone4,1: 9.3.4
+ <br>
+ Features:
+ Logging is disabled by default, however you can enable it by creating a file at
+ <p>/var/logs/untetherhomedepot.log (MAKE SURE TO "chmod +w"!!!)
+ <br>
+ <p>Also there is an attempt of making a "bootloop protection"
+ <p>At boot a file is created at /var/logs/untetherhomedepotLoopProtection.txt
+ <p>which contains the number of times the exploit failed.
+ <p>If the number exceeds "10" then the untether boots without executing the kernelexploit.
+ <p>On every successfull boot the file is deleted.
+ <p>If you want to deactivate untether then run:
+ <p>"echo '10' > /var/logs/untetherhomedepotLoopProtection.txt"
+ <br>
+ There is an offsets.json file in /untether
+ <p>You should really not touch any of the files shipped with this package!
+ <p>However if you don't care about your device bootlooping, you
+ <p>might want to try your luck and add offsets to the file.
+ <p>But please keep in mind:
+ <p>MODIFYING THIS FILE CAN CAUSE BOOTLOOPS!
+ <br>
+ FINAL WARNING:
+ <p>INSTALL AT YOUR OWN RISK!!!!!
+Author: tihmstar
+Dev: tihmstar
+Name: UntetherHomeDepot
+
+Package: net.tihmstar.untetherhomedepotoffsets
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Pre-Depends: net.tihmstar.untetherhomedepot (>= 1.4.2)
+Conflicts: cy+cpu.arm64
+Filename: debs/net.tihmstar.untetherhomedepotoffsets.deb
+Size: 2330
+MD5sum: f284b5c82faca2168f79752d66631e70
+SHA1: 04fec8b0fae7d14b9e2dab7eea7b19310c8cc2e3
+SHA256: 58bebcdd287a598d0ed58bd36decc1dfbc5a2978cdb4297c8d707d01ed27ce61
+Section: System
+Priority: optional
+Homepage: https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
+Description: Community Offsets for UntetherHomeDepot
+ <br>
+ UntetherHomeDepot is an untether package for 32bit devices running 9.1-9.3.4
+ <p>However it only ships with configuration for iPhone4,1 on 9.3.4
+ <p>This Package was created by the jailbreak community with the
+ <p>great initiative of @stek29 and aims to add offsets for every
+ <p>other device/ios combination.
+ <br>
+ <p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
+ <p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
+ <br>
+ Many of the offsets were tested by the community, however
+ <p>some of them are still untested (but should work).
+ <p>For more information on which offsets have been tested
+ <p>and whether you help is needed, please check following gist:
+ <p>https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
+ <br>
+ Info:
+ <p>If this package bootloops your device, try triggering bootloopprotection
+ <p>by rebooting at least 10 times!
+ <br>
+ FINAL WARNING:
+ <p>TIHMSTAR IS NOT RESPONSIBLE FOR THE CORRECTNESS OF THE SHIPPED OFFSETS!
+ <p>INSTALL AT YOUR OWN RISK!!!!!
+Author: stek29
+Name: Community Offsets
+
+Package: org.coolstar.stash933
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 9.2), firmware (<= 10.2), org.coolstar.cctools
+Conflicts: com.tigisoftware.filza (<= 3.1.0-16)
+Filename: debs/stash933-1.5.0.deb
+Size: 30290
+MD5sum: 6e2972fa7dbed153cb43c6554f45b873
+SHA1: 4f8e00c82078d5fdab4a84069fcd551a70954091
+SHA256: bb5052755a942ab3b80432a21416106e31f3f00f039920ac4a3aef6ac23950a0
+Section: System
+Description: Stash 3rd party components to make more space for them!
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Stashing for iOS 9.2 - 10.2
+
+Package: org.tihmstar.kDFUApp
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, firmware (>= 6.0)
+Filename: debs/org.tihmstar.kDFUApp-1.0.2.deb
+Size: 80458
+MD5sum: d2fb236c946705c835a08f844527f0c1
+SHA1: bd26bd0a4d7c9a60d0af75a962ced322962d2f3f
+SHA256: b52de8c051332425576b11a3d9ce9637a70c184afc5479ad449d1467a4868271
+Section: System
+Priority: optional
+Description: easy way to get into kDFU mode
+ kDFUApp is an easy way to get into kDFU mode
+ simply activate all switches and press the button
+ <br>
+ <br>Currently compatible with:
+ <br>iPhone3,1 / iPhone3,2 / iPhone3,3 / iPhone4,1 / iPhone5,1 / iPhone5,2 / iPhone5,4
+ <br>iPad2,1 / iPad2,2 / iPad2,3 / iPad3,1 / iPad3,3
+ <br>
+ <br>NOT COMPATIBLE WITH 64BIT DEVICES!
+Author: tihmstar
+Dev: tihmstar
+Name: kDFUApp
+
