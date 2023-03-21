@@ -293,6 +293,28 @@ Description: Make Ultrasound work on iOS 10 (and below maybe?)
 Author: ARX8x
 Name: Ultrasound patch
 
+Package: net.tihmstar.daemonloader
+Version: 1.0.0
+Architecture: iphoneos-arm
+Conflicts: cy+cpu.arm64
+Filename: debs/net.tihmstar.daemonloader-1.0.0.deb
+Size: 65904
+MD5sum: 1e64eea96f8ff4d1cabc0e96d46751ce
+SHA1: d695863ee2aee73779fe10f3081c959c11ed7aad
+SHA256: 4e084a59c01a9ea670af53cb609de491f7c7218382975730f0b36b77842f4ec5
+Section: System
+Description: Actually loads launchdaemons on jsc/rtbuddyd untethers
+ <br>
+ Use this to have openssh loaded with etasonuntether or untetherhomedepot
+ <br>
+ Use orphan_commander (libtakeover) spawned from untether
+ to wait until syslogd is started and then injects to it
+ and runs "lanchctl load /Library/LaunchDaemons"
+ <br>
+Author: tihmstar
+Dev: tihmstar
+Name: Daemonloader
+
 Package: net.tihmstar.untetherhomedepot
 Version: 1.4.2
 Architecture: iphoneos-arm
