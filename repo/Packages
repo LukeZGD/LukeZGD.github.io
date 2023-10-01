@@ -348,16 +348,16 @@ Dev: tihmstar
 Name: Daemonloader
 
 Package: net.tihmstar.untetherhomedepot
-Version: 1.4.2
+Version: 1.5.1
 Architecture: iphoneos-arm
-Depends: firmware (>= 9.1), firmware (<= 9.3.4)
+Depends: net.tihmstar.untetherhomedepotoffsets, net.tihmstar.daemonloader, firmware (>= 9.1), firmware (<= 9.3.4)
 Conflicts: cy+cpu.arm64
 Replaces: net.tihmstar.betterhomedepot
 Filename: debs/net.tihmstar.untetherhomedepot.deb
-Size: 22650
-MD5sum: 94e2ea5ebaac343ffc1a7514accc5c24
-SHA1: 375628b9348b730bf75108e5675ed74295909b28
-SHA256: 0988d513c1d7960f63b7944f7d7baae43aa49e63c8995411dd24ad7b1254e5f6
+Size: 22676
+MD5sum: 982d69b102511485619e4c5a921c8b45
+SHA1: 88d76c74a48bcf74ab3a64fe0f8c8def33a6f3ec
+SHA256: 5fe94d2df5994888e3946fdcdbaa69f8815b5e0d9638a87b974e5a8c2aa8520b
 Section: System
 Priority: optional
 Description: Untether for 9.1-9.3.4 32bit
@@ -464,26 +464,18 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: Stashing for iOS 9.2 - 10.2
 
 Package: org.tihmstar.kDFUApp
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: tihmstar
-Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, firmware (>= 6.0)
-Filename: debs/org.tihmstar.kDFUApp-1.0.2.deb
-Size: 80458
-MD5sum: d2fb236c946705c835a08f844527f0c1
-SHA1: bd26bd0a4d7c9a60d0af75a962ced322962d2f3f
-SHA256: b52de8c051332425576b11a3d9ce9637a70c184afc5479ad449d1467a4868271
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
+Filename: debs/org.tihmstar.kDFUApp.deb
+Size: 80264
+MD5sum: 11acba9233d569267c58a2ff1e85a600
+SHA1: 5ecdfd856331a124649cf2af6a83b39d48d6ef62
+SHA256: 1f44ba92f5e194e56234eff7f5c09bf571d30b3001c6d6d52488b55fa070cb7c
 Section: System
 Priority: optional
 Description: easy way to get into kDFU mode
- kDFUApp is an easy way to get into kDFU mode
- simply activate all switches and press the button
- <br>
- <br>Currently compatible with:
- <br>iPhone3,1 / iPhone3,2 / iPhone3,3 / iPhone4,1 / iPhone5,1 / iPhone5,2 / iPhone5,4
- <br>iPad2,1 / iPad2,2 / iPad2,3 / iPad3,1 / iPad3,3
- <br>
- <br>NOT COMPATIBLE WITH 64BIT DEVICES!
 Author: tihmstar
 Dev: tihmstar
 Name: kDFUApp
