@@ -348,104 +348,23 @@ Dev: tihmstar
 Name: Daemonloader
 
 Package: net.tihmstar.untetherhomedepot
-Version: 1.5.1
+Version: 1.5.2
 Architecture: iphoneos-arm
-Depends: net.tihmstar.untetherhomedepotoffsets, net.tihmstar.daemonloader, firmware (>= 9.1), firmware (<= 9.3.4)
-Conflicts: cy+cpu.arm64
+Maintainer: LukeZGD
+Depends: net.tihmstar.daemonloader, firmware (>= 9.1), firmware (<= 9.3.4)
+Conflicts: cy+cpu.arm64, net.tihmstar.untetherhomedepotoffsets, io.pangu.fuxiqin9
 Replaces: net.tihmstar.betterhomedepot
 Filename: debs/net.tihmstar.untetherhomedepot.deb
-Size: 22676
-MD5sum: 982d69b102511485619e4c5a921c8b45
-SHA1: 88d76c74a48bcf74ab3a64fe0f8c8def33a6f3ec
-SHA256: 5fe94d2df5994888e3946fdcdbaa69f8815b5e0d9638a87b974e5a8c2aa8520b
+Size: 22918
+MD5sum: 9b939b5d365688afe131e6c30cd04e0e
+SHA1: d145350a9e869d6ce4dec60c2ee5d81348d67758
+SHA256: c2522c9649a1501ae073aa7c5f438ab91fa5d990507a3b4edcdd67251604cdf5
 Section: System
 Priority: optional
-Description: Untether for 9.1-9.3.4 32bit
- <br>
- UntetherHomeDepo is an untether package for 32bit devices running 9.1-9.3.4
- <p>It exploits the Pegasus jsc bug and bootstraps HomeDepot jailbreak.
- <br>
- <p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
- <p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
- <br>
- KNOWN BUGS:
- <p>- openssh daemon doesn't start
- <br>
- CHANGELOG:
- <p>v1.4 added support for 9.2.1
- <p>     Refusing to install when stage1 doesn't work (to prevent bootloops)
- <p>v1.3 fixed lwvm patch (bug where 9.3.1 rootfs was ro)
- <p>v1.2 fixed a bug where having a passcode would disable untether
- <p>v1.1 fixed deepsleep bug
- <br>
- Currently supported device:
- <p>iPhone4,1: 9.3.4
- <br>
- Features:
- Logging is disabled by default, however you can enable it by creating a file at
- <p>/var/logs/untetherhomedepot.log (MAKE SURE TO "chmod +w"!!!)
- <br>
- <p>Also there is an attempt of making a "bootloop protection"
- <p>At boot a file is created at /var/logs/untetherhomedepotLoopProtection.txt
- <p>which contains the number of times the exploit failed.
- <p>If the number exceeds "10" then the untether boots without executing the kernelexploit.
- <p>On every successfull boot the file is deleted.
- <p>If you want to deactivate untether then run:
- <p>"echo '10' > /var/logs/untetherhomedepotLoopProtection.txt"
- <br>
- There is an offsets.json file in /untether
- <p>You should really not touch any of the files shipped with this package!
- <p>However if you don't care about your device bootlooping, you
- <p>might want to try your luck and add offsets to the file.
- <p>But please keep in mind:
- <p>MODIFYING THIS FILE CAN CAUSE BOOTLOOPS!
- <br>
- FINAL WARNING:
- <p>INSTALL AT YOUR OWN RISK!!!!!
+Description: Untether for iOS 9.1-9.3.4 32-bit
 Author: tihmstar
 Dev: tihmstar
 Name: UntetherHomeDepot
-
-Package: net.tihmstar.untetherhomedepotoffsets
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: tihmstar
-Pre-Depends: net.tihmstar.untetherhomedepot (>= 1.4.2)
-Conflicts: cy+cpu.arm64
-Filename: debs/net.tihmstar.untetherhomedepotoffsets.deb
-Size: 2330
-MD5sum: f284b5c82faca2168f79752d66631e70
-SHA1: 04fec8b0fae7d14b9e2dab7eea7b19310c8cc2e3
-SHA256: 58bebcdd287a598d0ed58bd36decc1dfbc5a2978cdb4297c8d707d01ed27ce61
-Section: System
-Priority: optional
-Homepage: https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
-Description: Community Offsets for UntetherHomeDepot
- <br>
- UntetherHomeDepot is an untether package for 32bit devices running 9.1-9.3.4
- <p>However it only ships with configuration for iPhone4,1 on 9.3.4
- <p>This Package was created by the jailbreak community with the
- <p>great initiative of @stek29 and aims to add offsets for every
- <p>other device/ios combination.
- <br>
- <p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
- <p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
- <br>
- Many of the offsets were tested by the community, however
- <p>some of them are still untested (but should work).
- <p>For more information on which offsets have been tested
- <p>and whether you help is needed, please check following gist:
- <p>https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
- <br>
- Info:
- <p>If this package bootloops your device, try triggering bootloopprotection
- <p>by rebooting at least 10 times!
- <br>
- FINAL WARNING:
- <p>TIHMSTAR IS NOT RESPONSIBLE FOR THE CORRECTNESS OF THE SHIPPED OFFSETS!
- <p>INSTALL AT YOUR OWN RISK!!!!!
-Author: stek29
-Name: Community Offsets
 
 Package: org.coolstar.stash933
 Version: 1.5.0
