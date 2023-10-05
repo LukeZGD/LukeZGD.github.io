@@ -1,15 +1,14 @@
 Package: applebetas.ios.tweak.willow
-Version: 1.2.14
+Version: 1.2.15
 Architecture: iphoneos-arm
 Maintainer: Ayden Panhuyzen
-Installed-Size: 984
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, dev.ayden.ios.tweak.lib.libdundas
+Depends: mobilesubstrate, firmware (>= 11.0) | net.arx8x.ultrasoundpatch, preferenceloader, dev.ayden.ios.tweak.lib.libdundas
 Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
-Filename: debs/applebetas.ios.tweak.willow_1.2.14_iphoneos-arm-ios10.deb
-Size: 331146
-MD5sum: c57934bb957551d38ca352b340201732
-SHA1: 4d634ad27d759139786034094ae2606c0fa65cdb
-SHA256: 389245c770d5f4d4098ac76d7a9cdc5e4af919f648d3e04e0ed4c388e0afe93e
+Filename: debs/applebetas.ios.tweak.willow.deb
+Size: 331156
+MD5sum: 201a5ed83f91eb8315c29df9206c2cfe
+SHA1: c2a8d9d97434d5839d06979a15b896866d7291d7
+SHA256: b5d3f765da5ab06bed1c4792c922c40bfa2817616eeab505d4257abf0e3d6ce7
 Section: Tweaks
 Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
 Author: Ayden Panhuyzen
@@ -66,35 +65,6 @@ Description: Get percentages for the sliders in the Control Center on iOS 11, 12
 Author: iOS Creatix, kasiimh1
 Name: SugarCane
 
-Package: com.lcampbell0x.dropbear
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: firmware (>= 1.0)
-Filename: debs/com.lcampbell0x.dropbear-1.0_iphoneos-arm.deb
-Size: 1832962
-MD5sum: c8f4767f3ae14767eed689fdd5591995
-SHA1: 9fedce104ac61032ecd85f4a9cb9baa60c2b35f4
-SHA256: 5b1058f0b7c6a8cf3fd1aedf0b7a8dbf08266f9e6384a89c5581dd5b60b12549
-Section: System
-Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
-Name: Dropbear
-
-Package: com.lint.undelete
-Version: 1.4.1-1+debug
-Architecture: iphoneos-arm
-Maintainer: lint <apieceoflint@protonmail.com>
-Installed-Size: 2348
-Depends: mobilesubstrate
-Filename: debs/com.lint.undelete_1.4.1-1debug_iphoneos-arm.deb
-Size: 452598
-MD5sum: fa630cef37180d9ff7694c725da9ff7d
-SHA1: 2d4cbb86a63aa88f9fdef30ac2db346adc82a2c1
-SHA256: 5b458866378662bf6a33b59d8732e659802576a9b6cb934b14bafc8d6c3fcefa
-Section: Tweaks
-Description: See "[deleted]" comments and posts without leaving Reddit!
-Author: lint <apieceoflint@protonmail.com>
-Name: TFDidThatSay?
-
 Package: com.lukezgd.daibutsumigrator
 Version: 2.0.3
 Architecture: iphoneos-arm
@@ -111,20 +81,20 @@ Description: Migrate from EtasonJB/HomeDepot/openpwnage to daibutsu untether. Re
 Author: LukeZGD
 Name: daibutsu migrator
 
-Package: com.lukezgd.etasonjbdisable
-Version: 1.0.0
+Package: com.lukezgd.dropbear
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
-Depends: net.tihmstar.etasonuntether, bsdiff, firmware (= 8.4.1)
-Filename: debs/com.lukezgd.etasonjbdisable-1.0.0_iphoneos-arm.deb
-Size: 1108
-MD5sum: 493a4004ebe14cc65d3aa1349dd40aad
-SHA1: 343c7138c5817927eda69e78e861468db27cb722
-SHA256: 421ef4c7a04e248426bbd421efc74087f98428010b39cf598fdcf4a6da61aae3
+Depends: openssh
+Replaces: com.lcampbell0x.dropbear
+Filename: debs/com.lukezgd.dropbear.deb
+Size: 1272146
+MD5sum: 515399880395161c18919041a4bfbf9e
+SHA1: a4cf2662095b593b80c9f4e87253b79d8a4751c6
+SHA256: a6736bf0ac93a832d7899745ba1f7ff95a9c3b7aafcd450dccdd0f67f4d36f3c
 Section: System
-Description: Disable EtasonJB's "bootloop protection"
-Author: LukeZGD
-Name: EtasonJB Disable Bootloop Protection
+Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
+Name: Dropbear
 
 Package: com.lukezgd.iconsfix
 Version: 1.0.0
