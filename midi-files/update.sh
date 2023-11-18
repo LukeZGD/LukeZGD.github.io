@@ -10,6 +10,7 @@ echo '<!DOCTYPE html>
         <div align="center">
         <h1>LukeZGD MIDI Files</h1>
         <p>Please give credit to me when used.</p>
+        <p><a href="https://ko-fi.com/lukezgd">Consider supporting me on Ko-Fi</a></p>
         <hr/>' > index.html
 for f in midis/*; do
     echo "${f:6}"
