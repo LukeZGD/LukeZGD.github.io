@@ -72,10 +72,10 @@ Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 8.4.1), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader
 Filename: debs/com.lukezgd.daibutsumigrator.deb
-Size: 61120
-MD5sum: 010dc6bcc0bf8104ccd8509a98b1382c
-SHA1: 3e2fcc4de95c56dff9c9609bda90077ad8156aa2
-SHA256: 7ca15e37743a790de626b7d8bcd8dd4f3c51fb0fb2fe66bdc08d0923c9162180
+Size: 61286
+MD5sum: d156c0acb70de8071a5f66c9dbc9981c
+SHA1: 42932aed052612d3ff465835cb70b143aa45990b
+SHA256: c36883f2c578b5e5db1af18d1b576f11c8ab0306d95ea7944c898e511fce123d
 Section: System
 Description: Migrate from EtasonJB/HomeDepot/openpwnage to daibutsu untether. Remove this package after the migration process. WARNING: Risk of bootloop, backup your data before installing.
 Author: LukeZGD
