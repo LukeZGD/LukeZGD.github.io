@@ -82,16 +82,16 @@ Author: LukeZGD
 Name: daibutsu migrator
 
 Package: com.lukezgd.dropbear
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: openssh
 Replaces: com.lcampbell0x.dropbear
 Filename: debs/com.lukezgd.dropbear.deb
-Size: 1272146
-MD5sum: 515399880395161c18919041a4bfbf9e
-SHA1: a4cf2662095b593b80c9f4e87253b79d8a4751c6
-SHA256: a6736bf0ac93a832d7899745ba1f7ff95a9c3b7aafcd450dccdd0f67f4d36f3c
+Size: 1272468
+MD5sum: c679aef32f6a966e5596dd75b5a7a71d
+SHA1: 8d6f2cbca04f14d884d0b3a61b434977f3e201a4
+SHA256: 1b2dace0edb54bc3f000dc2b029cc7ce4699d531aed98f2ab8ba82fdb1d08b54
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
