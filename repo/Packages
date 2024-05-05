@@ -207,6 +207,38 @@ Author: sakuRdev/dora2ios
 Depiction: https://dora2ios.github.io/info/ipwnderlite/
 Name: iPwnder Lite
 
+Package: ipwnderlite
+Version: 1.0.57
+Architecture: iphoneos-arm64
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: debs/ipwnderlite_1.0.57_iphoneos-arm64.deb
+Size: 18484
+MD5sum: b9dcbcd918676d260a30ef9dcac44a2d
+SHA1: fa7d54977a29f5d6a17fcbcc57aa998421068050
+SHA256: 257600c872d295981e67a91e453f30d1be9817aa412dc84fa4cb7e21090cbcb6
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Name: iPwnder Lite
+
+Package: ipwnderlite
+Version: 1.0.57
+Architecture: iphoneos-arm
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: debs/ipwnderlite_1.0.57_iphoneos-arm.deb
+Size: 32116
+MD5sum: 4a1d920a5aa8fb4c7dc5ad5bbc4565ff
+SHA1: d5905e66fa5066d3f7e8baad1f36ff028d87fdd9
+SHA256: 61e33cfe6c03c48ba4e5c341f66656032c3a60a9320e515d0db938cacb4fe914
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Name: iPwnder Lite
+
 Package: kloader
 Version: 1.0
 Architecture: iphoneos-arm
