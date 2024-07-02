@@ -223,6 +223,40 @@ Tag: role::developer
 Author: Ayden Panhuyzen
 Name: libdundas
 
+Package: io.pangu.axe7
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
+Filename: debs/io.pangu.axe7_0.3_iphoneos-arm.deb
+Size: 107276
+MD5sum: 3d86ef34bda9287e6081dda95b7593dd
+SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
+SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
+Section: System
+Priority: optional
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
+Name: Pangu 7.1-7.1.x Untether
+
+Package: io.pangu.xuanyuansword8
+Version: 0.5
+Architecture: iphoneos-arm
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 8.0), firmware (<= 8.1)
+Filename: debs/io.pangu.xuanyuansword8_0.5_iphoneos-arm.deb
+Size: 456978
+MD5sum: 4aaf6a47faf4896d73955980eaa9c078
+SHA1: c6b1673b646a5a72a92232210bf3fb4c44dba9ce
+SHA256: 16ebfa004be2825288121560a73b67729fcc6721e6fca83c7963db812d934e96
+Section: System
+Priority: optional
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
+Name: Pangu 8.0-8.1 Untether
+
 Package: ipwnderlite
 Version: 1.0.58
 Architecture: iphoneos-arm
