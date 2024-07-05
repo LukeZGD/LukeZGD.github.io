@@ -258,15 +258,15 @@ Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
 Name: Pangu 8.0-8.1 Untether
 
 Package: ipwnderlite
-Version: 1.0.58
+Version: 1.0.59
 Architecture: iphoneos-arm
 Maintainer: sakuRdev/dora2ios
 Depends: firmware (>= 9.0), curl, com.ra9stuff.accessoryalertblocker
-Filename: debs/ipwnderlite_1.0.58_iphoneos-arm.deb
-Size: 44208
-MD5sum: ab9e8e7ce3f84cc6086ad7faa2f71834
-SHA1: c55f2165582fbdaae30cfa918d655ec39ee5f32a
-SHA256: 8bd03cae106662b574fe16bc7dc5616fd3ddb79515e9fe77fd75ac8e16607a54
+Filename: debs/ipwnderlite_1.0.59_iphoneos-arm.deb
+Size: 44652
+MD5sum: 2dba07cee5abda1e2dd2a99f9275a630
+SHA1: 3cf2bc13e4f3159c18908272d2fbc2e0ca85d5e2
+SHA256: 9f69d437c7436045e433e67a973bebbd093cb152f17aa7305b81104f700e8a2e
 Section: System
 Description: iPwnder Lite for iPhoneOS.
 Author: sakuRdev/dora2ios
@@ -274,15 +274,15 @@ Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa4
 Name: iPwnder Lite
 
 Package: ipwnderlite
-Version: 1.0.58
+Version: 1.0.59
 Architecture: iphoneos-arm64
 Maintainer: sakuRdev/dora2ios
 Depends: firmware (>= 9.0), curl, com.ra9stuff.accessoryalertblocker
-Filename: debs/ipwnderlite_1.0.58_iphoneos-arm64.deb
-Size: 22294
-MD5sum: df242fb364724e8df903afcab11db037
-SHA1: 623c345ed9f77e6d0c1e78f941cd0fa03b5f1dd4
-SHA256: 85ae2655248d7302fe895368a40b2ea5f02f49b715efc67267e4ccf531d55761
+Filename: debs/ipwnderlite_1.0.59_iphoneos-arm64.deb
+Size: 22476
+MD5sum: d67606643471b070c7522248cfeba8aa
+SHA1: 3843ef47e54a939f9473be747321a85687baca2a
+SHA256: d09e90cb2358981f5924bb23efd118c50492ee549b4136a0f18aabe875176eb3
 Section: System
 Description: iPwnder Lite for iPhoneOS.
 Author: sakuRdev/dora2ios
