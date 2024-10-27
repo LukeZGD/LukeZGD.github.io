@@ -82,16 +82,17 @@ Author: LukeZGD
 Name: daibutsu migrator
 
 Package: com.lukezgd.dropbear
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: openssh
+Conflicts: com.lcampbell0x.dropbear
 Replaces: com.lcampbell0x.dropbear
 Filename: debs/com.lukezgd.dropbear.deb
-Size: 1272468
-MD5sum: c679aef32f6a966e5596dd75b5a7a71d
-SHA1: 8d6f2cbca04f14d884d0b3a61b434977f3e201a4
-SHA256: 1b2dace0edb54bc3f000dc2b029cc7ce4699d531aed98f2ab8ba82fdb1d08b54
+Size: 1272760
+MD5sum: 7af9267a9df927e3a3d0062c62b718a5
+SHA1: 9a7428b9c5cd083e610910179f0df92629a844e6
+SHA256: 841041a656d0bae2fdc144e4bb39b75f78ec0d4607a06338328c18fba442b2e1
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
@@ -176,22 +177,6 @@ Name: NoBetaAlert
 
 Package: com.ra9stuff.accessoryalertblocker
 Version: 0.0.1-2
-Architecture: iphoneos-arm64
-Maintainer: rA9stuff
-Installed-Size: 216
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.ra9stuff.accessoryalertblocker_0.0.1-2_iphoneos-arm64.deb
-Size: 4970
-MD5sum: c585aca0c818a74d52b2e045b29d9fd2
-SHA1: ab44734d1b78494d2bbf3d61c5e79f6959aa4d79
-SHA256: a38c9303115330e1abc471bc21136622c532255c4a1a35dfd82143255a656760
-Section: Tweaks
-Description: blocks downloading accessory firmware alert.
-Author: rA9stuff
-Name: accessoryalertblocker
-
-Package: com.ra9stuff.accessoryalertblocker
-Version: 0.0.1-2
 Architecture: iphoneos-arm
 Maintainer: rA9stuff
 Installed-Size: 216
@@ -201,6 +186,22 @@ Size: 4908
 MD5sum: fd284f54ce49e93397e462947f5f1ad2
 SHA1: 3518e993db934723dfaaf5b7fd83f3d49b10c4c1
 SHA256: a5663a19248dce79aa74b7f23b75b3dc893260012cfa9ff908675721da0f9844
+Section: Tweaks
+Description: blocks downloading accessory firmware alert.
+Author: rA9stuff
+Name: accessoryalertblocker
+
+Package: com.ra9stuff.accessoryalertblocker
+Version: 0.0.1-2
+Architecture: iphoneos-arm64
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.ra9stuff.accessoryalertblocker_0.0.1-2_iphoneos-arm64.deb
+Size: 4970
+MD5sum: c585aca0c818a74d52b2e045b29d9fd2
+SHA1: ab44734d1b78494d2bbf3d61c5e79f6959aa4d79
+SHA256: a38c9303115330e1abc471bc21136622c532255c4a1a35dfd82143255a656760
 Section: Tweaks
 Description: blocks downloading accessory firmware alert.
 Author: rA9stuff
