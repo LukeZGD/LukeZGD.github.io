@@ -66,15 +66,15 @@ Author: iOS Creatix, kasiimh1
 Name: SugarCane
 
 Package: com.lukezgd.cbfixforsocket
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: com.coolbooter.coolbooter, com.staturnz.containerresign
 Filename: debs/com.lukezgd.cbfixforsocket.deb
-Size: 800
-MD5sum: e033a05d5ced476e34689a7a13b0a05d
-SHA1: e89f9277626d6e151a6430114d6b5c5833466046
-SHA256: b82aff934a622f39a349b435d596ab818ae66146e8e0253886f3ba0a7999fc3f
+Size: 980
+MD5sum: dfbfcbfa5707e8061288c7708f077d26
+SHA1: d928d18ca41322dc471085e4813961fa8db8d550
+SHA256: bf250d5e63748986fc17accbe2ba15b2c102ffa18858097706cb012a335f4b66
 Section: System
 Description: Fix CoolBooter error for socket jailbreak. You may remove this package after fix is applied. You may also re-install this package anytime to fix CoolBooter on upgrade/downgrade.
 Author: LukeZGD
@@ -102,12 +102,11 @@ Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: openssh
 Conflicts: com.lcampbell0x.dropbear
-Replaces: com.lcampbell0x.dropbear
 Filename: debs/com.lukezgd.dropbear.deb
-Size: 1272236
-MD5sum: d2a13ffc74a237c9678b59937766e872
-SHA1: 9da9785029f6a319c8b8eccd5b7c14697ed27c82
-SHA256: 398638c45ebd83f97728493c8b86c32f4923b093de409357c2a5ead5f73da119
+Size: 1272234
+MD5sum: e26a75d00b913e69e5fbcfc3aff06215
+SHA1: d5189cb1ad3ccc9bf53861b0c0bba88ea5fb5bbe
+SHA256: 2ba04d2d0ea13d0b0ca6f75066a27ab04087588d1316da8d2c3c441ed393aa03
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
