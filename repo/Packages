@@ -293,10 +293,10 @@ Architecture: iphoneos-arm64
 Maintainer: sakuRdev/dora2ios
 Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
 Filename: debs/ipwnderlite_1.0.63_iphoneos-arm64.deb
-Size: 23108
-MD5sum: c10e330d9042d9ea47b705ae710c3af1
-SHA1: d3da51ee0f46eb6d04a18d43e8c6205fe9cc4ec0
-SHA256: 202972649d8056b88cf59b88cf3880b5e1b25d2ad16da82f9be78aa1dd9ee744
+Size: 22364
+MD5sum: e42f7e476f6f247bf9695a6c4d0067e3
+SHA1: cfc6724cd5a36991587e746a64b4297c97528868
+SHA256: 274bf166961ae7fa1837d6ece9203797fb7dea0f6cffb6a6fc5c7a734384b419
 Section: System
 Description: iPwnder Lite for iPhoneOS.
 Author: sakuRdev/dora2ios
