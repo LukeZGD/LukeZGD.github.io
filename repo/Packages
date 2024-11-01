@@ -142,19 +142,19 @@ Author: LukeZGD
 Name: kDFUApp Bundles
 
 Package: com.lukezgd.newterminstaller
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: ws.hbang.common (= 1.17.1), ws.hbang.newterm2 (= 2.5)
 Filename: debs/com.lukezgd.newterminstaller.deb
-Size: 1184
-MD5sum: de1162d43d018a7b66c40fc5f4e1af1f
-SHA1: d7246ce75589eb6b24d9895951f7aac9cbec7c30
-SHA256: 4dc26abf926c9a2dc544b5cc6c71681cd52d8ca52e1ee62a9a9ec68aea567a36
+Size: 820
+MD5sum: c0822b2581b68f29ad17c186afbdd6e6
+SHA1: 7d5b89628f4047633d94d8b302bd4e2bfa6933a2
+SHA256: adbe3e5fcf41238dfb88d7d4337d3c0815c912ebf14a5c31ffaf153f3b843309
 Section: System
-Description: NewTerm 2 installer for socket jailbreak and other rootful (mainly for iOS 14 and lower) jailbreaks. Users must have https://repo.chariz.com added to Sources to proceed.
+Description: NewTerm 2 installer for socket jailbreak and other rootful (mainly for iOS 14 and lower) jailbreaks. Users must have https://repo.chariz.com added to Sources to proceed. You may remove this package after NewTerm 2 is installed.
 Author: LukeZGD
-Name: NewTerm 2 Installer
+Name: NewTerm 2 Installer for Socket
 
 Package: com.lukezgd.unthredeh4il
 Version: 1.0.0
