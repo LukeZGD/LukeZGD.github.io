@@ -483,20 +483,20 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: Stashing for iOS 9.2 - 10.2.1
 
 Package: org.coolstar.stash935
-Version: 1.5.1
+Version: 1.5.2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 9.2), firmware (<= 9.3.5), org.coolstar.cctools
+Depends: firmware (>= 9.2), firmware (<< 10.0), org.coolstar.cctools
 Conflicts: com.tigisoftware.filza (<= 3.1.0-16), org.coolstar.stash933
 Filename: debs/stash935.deb
 Size: 30440
-MD5sum: 63b403184f23325686a501360c78e724
-SHA1: 23f8fff9cffab2fc4c0c87d8cc1bec77df5871c0
-SHA256: 59a8acd05fb1182d6128e576a17d4cec73ae35341263ae38997afc1338f8cbac
+MD5sum: 21836b55515b9835436a2a3dd9cf8af5
+SHA1: 100b0d9d0984cd5d8c33e71f3532ea8a7d4ea79f
+SHA256: 5c10ee5cab458ce0fae9f7a0a73fe65fc3eadec92a1bc56e262ef3357c3f0fc0
 Section: System
 Description: Stash 3rd party components to make more space for them!
 Author: CoolStar <coolstarorganization@gmail.com>
-Name: Stashing for iOS 9.2 - 9.3.5
+Name: Stashing for iOS 9.2 - 9.3.6
 
 Package: org.tihmstar.kDFUApp
 Version: 1.0.3
