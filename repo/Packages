@@ -467,20 +467,36 @@ Dev: tihmstar
 Name: UntetherHomeDepot
 
 Package: org.coolstar.stash933
-Version: 1.5.0
+Version: 1.5.2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 9.2), firmware (<= 10.2), org.coolstar.cctools
-Conflicts: com.tigisoftware.filza (<= 3.1.0-16)
-Filename: debs/stash933-1.5.0.deb
-Size: 30290
-MD5sum: 6e2972fa7dbed153cb43c6554f45b873
-SHA1: 4f8e00c82078d5fdab4a84069fcd551a70954091
-SHA256: bb5052755a942ab3b80432a21416106e31f3f00f039920ac4a3aef6ac23950a0
+Depends: firmware (>= 9.2), firmware (<= 10.2.1), org.coolstar.cctools
+Conflicts: com.tigisoftware.filza (<= 3.1.0-16), org.coolstar.stash935
+Filename: debs/stash933.deb
+Size: 30318
+MD5sum: 14976801fe8cdabad2a5a434f545456b
+SHA1: be82b7240e1054a1ad4b56c642a40b14459cf7f3
+SHA256: 21b887e2fc70ee2254cfd4331fb5b8b5a0e2dacae437d32d23b0d2b87884b6f7
 Section: System
 Description: Stash 3rd party components to make more space for them!
 Author: CoolStar <coolstarorganization@gmail.com>
-Name: Stashing for iOS 9.2 - 10.2
+Name: Stashing for iOS 9.2 - 10.2.1
+
+Package: org.coolstar.stash935
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 9.2), firmware (<= 9.3.5), org.coolstar.cctools
+Conflicts: com.tigisoftware.filza (<= 3.1.0-16), org.coolstar.stash933
+Filename: debs/stash935.deb
+Size: 30440
+MD5sum: 63b403184f23325686a501360c78e724
+SHA1: 23f8fff9cffab2fc4c0c87d8cc1bec77df5871c0
+SHA256: 59a8acd05fb1182d6128e576a17d4cec73ae35341263ae38997afc1338f8cbac
+Section: System
+Description: Stash 3rd party components to make more space for them!
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Stashing for iOS 9.2 - 9.3.5
 
 Package: org.tihmstar.kDFUApp
 Version: 1.0.3
