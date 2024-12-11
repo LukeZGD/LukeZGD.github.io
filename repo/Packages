@@ -66,17 +66,17 @@ Author: iOS Creatix, kasiimh1
 Name: SugarCane
 
 Package: com.lukezgd.cbfixforsocket
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
-Depends: com.coolbooter.coolbooter, com.staturnz.containerresign
+Depends: com.coolbooter.coolbooter (<< 1.6), com.staturnz.containerresign
 Filename: debs/com.lukezgd.cbfixforsocket.deb
-Size: 980
-MD5sum: dfbfcbfa5707e8061288c7708f077d26
-SHA1: d928d18ca41322dc471085e4813961fa8db8d550
-SHA256: bf250d5e63748986fc17accbe2ba15b2c102ffa18858097706cb012a335f4b66
+Size: 854
+MD5sum: 84b71c57791e4cff44f8bdb2a5ba2dda
+SHA1: 927f7b8260b76fb357b2196b6ccffcbd2edbceb8
+SHA256: c5a323ef4cd867247c23d7dc1d272650249fb2622bc6168aa59131378dd12332
 Section: System
-Description: Fix CoolBooter error for socket jailbreak. You may remove this package after fix is applied. You may also re-install this package anytime to fix CoolBooter on upgrade/downgrade.
+Description: Fix CoolBooter error for socket jailbreak. Downgrade Coolbooter to 1.5 or 1.4.1 first before installing this package. You may remove this package after fix is applied. You may also re-install this package anytime to fix CoolBooter on upgrade/downgrade.
 Author: LukeZGD
 Name: CoolBooter Fix for Socket
 
