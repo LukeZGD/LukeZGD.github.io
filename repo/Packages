@@ -71,28 +71,28 @@ Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: com.coolbooter.coolbooter (<< 1.6), com.staturnz.containerresign
 Filename: debs/com.lukezgd.cbfixforsocket.deb
-Size: 854
-MD5sum: 84b71c57791e4cff44f8bdb2a5ba2dda
-SHA1: 927f7b8260b76fb357b2196b6ccffcbd2edbceb8
-SHA256: c5a323ef4cd867247c23d7dc1d272650249fb2622bc6168aa59131378dd12332
+Size: 908
+MD5sum: 867eeb4a72b304558036596bee6c6af0
+SHA1: ecf129c701a75b934ea262317a6879a23c38fae0
+SHA256: 0d78875cafdcadeaba47997e3dbbf104a1b04dc5de5c6dbc16db1d66c2792d4b
 Section: System
 Description: Fix CoolBooter error for socket jailbreak. Downgrade Coolbooter to 1.5 or 1.4.1 first before installing this package. You may remove this package after fix is applied. You may also re-install this package anytime to fix CoolBooter on upgrade/downgrade.
 Author: LukeZGD
 Name: CoolBooter Fix for Socket
 
 Package: com.lukezgd.daibutsumigrator
-Version: 2.0.3-1
+Version: 2.0.3-2
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 8.4.1), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader
 Filename: debs/com.lukezgd.daibutsumigrator.deb
-Size: 61322
-MD5sum: b20e88650ae0b59feb50c88b35a560a8
-SHA1: 1117f25333691f0529ba9a0c075e8b656c2600b6
-SHA256: 7ef6d03c8518d7cf1f5136e3cbbf841e966880a9d413c0b638e676254bbcd7d1
+Size: 61278
+MD5sum: 935b9045b103f998181390acb813646f
+SHA1: 4b314e7591f0ca7f2d1760fad6b8d5f1c28a22c5
+SHA256: af46bb236a353f908da59a1308470e0ef200c57d950ebd5e96e144ea6bb00edd
 Section: System
-Description: Migrate from EtasonJB/HomeDepot/openpwnage to daibutsu untether. Remove this package after the migration process. Warning: There may be a small risk of bootloop, backup your data before installing.
+Description: Migrate from EtasonJB/HomeDepot/openpwnage to daibutsu untether. Remove this package after the migration process.
 Author: LukeZGD
 Name: daibutsu migrator
 
