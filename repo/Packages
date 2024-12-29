@@ -81,16 +81,16 @@ Author: LukeZGD
 Name: CoolBooter Fix for Socket
 
 Package: com.lukezgd.daibutsumigrator
-Version: 2.0.3-2
+Version: 2.0.3-3
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 8.4.1), uikittools (>= 1.1.10)
-Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.everuntether
 Filename: debs/com.lukezgd.daibutsumigrator.deb
-Size: 61278
-MD5sum: 935b9045b103f998181390acb813646f
-SHA1: 4b314e7591f0ca7f2d1760fad6b8d5f1c28a22c5
-SHA256: af46bb236a353f908da59a1308470e0ef200c57d950ebd5e96e144ea6bb00edd
+Size: 61688
+MD5sum: d668362610f327be373019610cdf2dd1
+SHA1: 5ddf1a7e6e4283b43b4ce45541b0db0d49db67d3
+SHA256: c7295896d35e0efdfac97f7b8e5ae1df7fadfe3886bc6c0bca9c8e81521efa00
 Section: System
 Description: Migrate from EtasonJB/HomeDepot/openpwnage to daibutsu untether. Remove this package after the migration process.
 Author: LukeZGD
@@ -110,6 +110,22 @@ SHA256: 2ba04d2d0ea13d0b0ca6f75066a27ab04087588d1316da8d2c3c441ed393aa03
 Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
+
+Package: com.lukezgd.everuntether
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 8.0), firmware (<= 9.0.2), uikittools (>= 1.1.10)
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, jp.daibutsu.untether841, io.pangu.fuxiqin9
+Filename: debs/everuntether.deb
+Size: 90320
+MD5sum: 1648e037d394b24ac8555bcc8605160c
+SHA1: 70cf29eed7180e697ba7824226b0bb0fe5ff2385
+SHA256: 21151865c22fb05ce3ec1d0ec6bd6dd40f6352d8c5025e6ac5f9205c71f798f0
+Section: System
+Description: Untether package for EverPwnage jailbreak. jsc untether + sock_port_2_legacy + daibutsu untether.
+Author: LukeZGD
+Name: EverUntether
 
 Package: com.lukezgd.iconsfix
 Version: 1.0.0
