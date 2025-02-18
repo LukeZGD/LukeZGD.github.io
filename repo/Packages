@@ -223,16 +223,16 @@ Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to S
 Name: Dropbear
 
 Package: com.lukezgd.everuntether
-Version: 1.1
+Version: 1.1-1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.0.2), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, jp.daibutsu.untether841, io.pangu.fuxiqin9
 Filename: debs/everuntether.deb
-Size: 90320
-MD5sum: 1648e037d394b24ac8555bcc8605160c
-SHA1: 70cf29eed7180e697ba7824226b0bb0fe5ff2385
-SHA256: 21151865c22fb05ce3ec1d0ec6bd6dd40f6352d8c5025e6ac5f9205c71f798f0
+Size: 90178
+MD5sum: be42f3ef49a987659741eb246af18442
+SHA1: 73c60804172cc471f47eebc51820d85109885921
+SHA256: d0ca5f052689fcd92ed1d1cb349470a5db0fb9081c2098169753fde007242395
 Section: System
 Description: Untether package for EverPwnage jailbreak. jsc untether + sock_port_2_legacy + daibutsu untether.
 Author: LukeZGD
