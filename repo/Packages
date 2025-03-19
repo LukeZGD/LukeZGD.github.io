@@ -475,6 +475,56 @@ Description: blocks downloading accessory firmware alert.
 Author: rA9stuff
 Name: accessoryalertblocker
 
+Package: com.tomaszpoliszuk.magsafecontroller
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 496
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: debs/com.tomaszpoliszuk.magsafecontroller_1.1.3_iphoneos-arm64.deb
+Size: 102934
+MD5sum: f88a4f6402a9af6333f1f361dd576cf9
+SHA1: 5065af0d4ab1edd2f669dfb9903442070ef9bfc9
+SHA256: de9d6cd4e7347eb128484b46c1a364b80104de6d54e900658fae036b160bf7a0
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Description: Customizable native "MagSafe" charging view
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/MagSafeController@3x.png
+Name: MagSafe Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.magsafecontroller
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 496
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: debs/com.tomaszpoliszuk.magsafecontroller_1.1.3_iphoneos-arm.deb
+Size: 93200
+MD5sum: 32262b3bfb3a9b3745a9de49f9dd8d85
+SHA1: d37954a47a12db43eb443ccdf6e7cc8bf11a03fc
+SHA256: 31e051caf2d0e9e7cccc7d9ccac0c9fa2d99353f3778074b4a17ba12b6085238
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Description: Customizable native "MagSafe" charging view
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/MagSafeController@3x.png
+Name: MagSafe Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: dev.ayden.ios.tweak.lib.libdundas
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -610,6 +660,26 @@ Priority: optional
 Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip-1.0.0
+
+Package: me.jjolano.alertdismiss
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: jjolano <jjolano@me.com>
+Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Filename: debs/me.jjolano.alertdismiss_1.0.4_iphoneos-arm64.deb
+Size: 14936
+MD5sum: aafdecff1cda78f7877a373dcf4c0e07
+SHA1: 9b4ad7ec99a3b1480af36fc7f4dceb31b5bb1167
+SHA256: 33ef491d32f1f7642b0710aba11db3ad5c11bde9800f92d2ce46a62544b23872
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Add a Force Dismiss button to any UIAlertController.
+Author: jjolano <jjolano@me.com>
+Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.alertdismiss.html
+Icon: https://ios.jjolano.me/assets/me.jjolano.alertdismiss/icon.png
+Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+Name: AlertDismiss
+Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
 
 Package: me.jjolano.alertdismiss
 Version: 1.0.4
