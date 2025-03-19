@@ -331,6 +331,118 @@ Description: Hide "Please update from the iOS beta" alert (iOS 9-13.x)
 Author: Ethan Nelson-Moore
 Name: NoBetaAlert
 
+Package: com.pholic.ipadui
+Version: 0.6.3
+Architecture: iphoneos-arm
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 12)
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.ipadui_0.6.3_iphoneos-arm.deb
+Size: 5358
+MD5sum: bacc3519350e20411fa1f9a51dc0d66e
+SHA1: 1e81eaad2a982fad7ac204d71576458cbb52d172
+SHA256: 4b1a49b97233ca8dbab635cbdf84c4e1eed6666e0eb594c9ad4a4df5386bc700
+Section: Tweaks
+Description: This is only for home-button iPhones on IOS 13 & 14, Now with limited support for 12 as well. There are no options to configure. This gives you home gestures, hides the status bar in the CC, gives you the iPad grid switcher, status bar, floating dock with recent app, and enables side-by-side multi-tasking. THIS IS A BETA
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: iPadUI
+
+Package: com.pholic.ipadui
+Version: 0.6.3
+Architecture: iphoneos-arm64
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 12)
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.ipadui_0.6.3_iphoneos-arm64.deb
+Size: 5648
+MD5sum: ff168714a84a7ddfcc7eecccc8c54965
+SHA1: 1f328696650342900581560a866e813b318db935
+SHA256: 4656d4d987b2cdd612a81e261a5c0c65cf07e0185affa9c775268b86bb28452b
+Section: Tweaks
+Description: This is only for home-button iPhones on IOS 13 & 14, Now with limited support for 12 as well. There are no options to configure. This gives you home gestures, hides the status bar in the CC, gives you the iPad grid switcher, status bar, floating dock with recent app, and enables side-by-side multi-tasking. THIS IS A BETA
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: iPadUI
+
+Package: com.pholic.modernui
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernui_1.1.5_iphoneos-arm64.deb
+Size: 3326
+MD5sum: 337b60f989ad636986e9952661a88601
+SHA1: 567aace25aa5823ff5dcb252645ba49b441890cf
+SHA256: 6d614ce6c6503c290b7c15a924cee5b670b754767ba401e5669988c09ab9ad2a
+Section: Tweaks
+Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI
+
+Package: com.pholic.modernui
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernui_1.1.5_iphoneos-arm.deb
+Size: 3266
+MD5sum: 0740716b33075cd4c000121361bae5db
+SHA1: 35ea4073b7113a3be6f72a33c3f748980038f21d
+SHA256: d14eec08d86dfce69e64d5fb7b4056a18b128c7b6a106aa0c0bdd1220397c094
+Section: Tweaks
+Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI
+
+Package: com.pholic.modernuiplus
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernui, com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernuiplus_1.0.1_iphoneos-arm64.deb
+Size: 5454
+MD5sum: 10400e21293ecefc9884abbdd1f4ea41
+SHA1: af81904f0a978348716cda43698ce538698f71fa
+SHA256: f593772210a54987777805458efccdbf0db024a12091b670bf2cbdca81f064fd
+Section: Tweaks
+Description: Modern gestures for IOS 13 & 14, no large titles, no dock background, percentage inside the battery, iPad status bar and switcher, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options.
+Author: pholic
+Conflict: com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI Plus
+
+Package: com.pholic.modernuiplus
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernui, com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernuiplus_1.0.1_iphoneos-arm.deb
+Size: 5282
+MD5sum: ea9df910f1ea41f3565ee313ee3a80bf
+SHA1: c21b296b7a8dec95485539b36b43b7f1f009915c
+SHA256: 247753a56b8e8066c8368961338c6f56d6bff21f1caa5a019529f652eeacb48c
+Section: Tweaks
+Description: Modern gestures for IOS 13 & 14, no large titles, no dock background, percentage inside the battery, iPad status bar and switcher, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options.
+Author: pholic
+Conflict: com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI Plus
+
 Package: com.ra9stuff.accessoryalertblocker
 Version: 0.0.1-2
 Architecture: iphoneos-arm
