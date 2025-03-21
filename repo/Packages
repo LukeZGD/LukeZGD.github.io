@@ -127,6 +127,22 @@ Name: Ultrasound
 
 Package: com.4nni3.coolcc
 Version: 1:4.0
+Architecture: iphoneos-arm64
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 328
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Filename: debs/com.4nni3.coolcc_1_4.0_iphoneos-arm64.deb
+Size: 43120
+MD5sum: deb4f9082296c889abdfae6190570e96
+SHA1: 4c618650395925ac2fc134d67c22fd50db9a336a
+SHA256: 8e892b3ed893cd307bd91a83370f7139f3d9d2ea72db764d6697b7f6ee1b4c62
+Section: Tweaks
+Description: Makes ControlCenter cool.
+Author: 4nni3 <4nni3.14@gmail.com>
+Name: CoolCC
+
+Package: com.4nni3.coolcc
+Version: 1:4.0
 Architecture: iphoneos-arm
 Maintainer: 4nni3 <4nni3.14@gmail.com>
 Installed-Size: 328
@@ -159,6 +175,46 @@ Depiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/
 Icon: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/DebIcon.png
 Name: CacheClearerX
 Sileodepiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/cacheclearerx.json
+
+Package: com.creaturesurvive.libcscolorpicker
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 960
+Pre-Depends: firmware (>= 7.0)
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm.deb
+Size: 149628
+MD5sum: a595a5e7e5e62502b741249c039d6328
+SHA1: 444a9abd9ee260bed98e432b356b9a3b34c8b2b7
+SHA256: a94cf0ad8d13f4d03e390ea244906834b0e93acc4be5f305628ca50d3e9022a2
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A minimal color picker library for developers
+Tag: purpose::extension, compatible_min::iosiOS7
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+Name: libCSColorPicker
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+
+Package: com.creaturesurvive.libcscolorpicker
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 960
+Pre-Depends: firmware (>= 7.0)
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm64.deb
+Size: 206352
+MD5sum: bc3b47252a5f1ac8c0cc1e4e28cc4891
+SHA1: de1df8e04e647361adaf8ded1d2061ee8f91dc17
+SHA256: 8bda84f9bee823a35e50baf62d30216a1b954ff2eb1862d933988808592a30f8
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A minimal color picker library for developers
+Tag: purpose::extension, compatible_min::iosiOS7
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+Name: libCSColorPicker
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
 
 Package: com.ioscreatix.sugarcane
 Version: 1.2.2
