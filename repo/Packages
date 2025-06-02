@@ -339,22 +339,6 @@ Description: NewTerm 2 installer for socket jailbreak and other rootful (mainly 
 Author: LukeZGD
 Name: NewTerm 2 Installer for Socket
 
-Package: com.lukezgd.unthredeh4il
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: LukeZGD
-Pre-Depends: cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.ipod (= 3.1) | cy+model.ipod (= 4.1) | cy+model.ipad (= 1.1), firmware (>= 4.2.6), firmware (<= 5.1.1)
-Replaces: com.unthreadedjb.unthredera1n
-Filename: debs/com.lukezgd.unthredeh4il_1.0.0_iphoneos-arm.deb
-Size: 12114
-MD5sum: 81b80667431b2c0e188064c5d0de5e7a
-SHA1: cf09758598b8905901402bbd86c01c755f66f400
-SHA256: 504d089cf9f6618dfa35642b7ed37094324c54da84e7ca52cdd0d5ef4943679b
-Section: System
-Description: Improved version of unthredera1n untether
-Author: UnthreadedJB
-Name: unthredeh4il
-
 Package: com.parrotgeek.ifilefix
 Version: 1.0
 Architecture: iphoneos-arm
