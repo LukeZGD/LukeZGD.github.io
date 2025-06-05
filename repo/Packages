@@ -615,6 +615,22 @@ Author: sakuRdev/dora2ios
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
 Name: iPwnder Lite (Rootless)
 
+Package: ipwnderlite
+Version: 1.0.68
+Architecture: iphoneos-arm64
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
+Filename: debs/ipwnderlite_1.0.68_iphoneos-arm64.deb
+Size: 18576
+MD5sum: fdbf0b4674193e10b74206d31b8d04b6
+SHA1: 05740988e91e0f5cc06ae38d00e6ef4445eacfd8
+SHA256: 1d7a9ae433dcb598576fb31bb08107d06399665d69b180afe22494a57fdb8028
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Name: iPwnder Lite (Rootless)
+
 Package: ipwnderlite32
 Version: 1.0.63
 Architecture: iphoneos-arm
@@ -632,6 +648,23 @@ Author: sakuRdev/dora2ios
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
 Name: iPwnder Lite
 
+Package: ipwnderlite32
+Version: 1.0.68
+Architecture: iphoneos-arm
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl, com.ra9stuff.accessoryalertblocker
+Conflicts: ipwnderlite
+Filename: debs/ipwnderlite32_1.0.68_iphoneos-arm.deb
+Size: 22280
+MD5sum: ea3189486a2bbcc31a2b5be1a3c0223a
+SHA1: a0d85930e475466e13839cad3209d681f545e83d
+SHA256: 1d72ba05ce5b0ec0828af083024ceed324e32412f3757aafd5d638423048bef4
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Name: iPwnder Lite
+
 Package: ipwnderlite64
 Version: 1.0.63
 Architecture: iphoneos-arm
@@ -643,6 +676,23 @@ Size: 22390
 MD5sum: d8adab1018a0fb283d2a3d7cbd6f1276
 SHA1: 3e8d381bb8ab4276fd9ab61feba159b58cea3c1c
 SHA256: 3c7354bbf06977b38371bcd525230c11d8c919caf397a94b775bdd6d0c4d0554
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Name: iPwnder Lite (iOS 11+)
+
+Package: ipwnderlite64
+Version: 1.0.68
+Architecture: iphoneos-arm
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 11.0), curl, com.ra9stuff.accessoryalertblocker
+Conflicts: ipwnderlite
+Filename: debs/ipwnderlite64_1.0.68_iphoneos-arm.deb
+Size: 21892
+MD5sum: e86c879e76f834be872a2c632cb12bed
+SHA1: e4ff56813dbd311c9e9d447467ab11e1f4a08b92
+SHA256: 694bc804c171861c317e8ac946deb2be1594f322bb4b9a57484d007d6fa0c17f
 Section: System
 Description: iPwnder Lite for iPhoneOS.
 Author: sakuRdev/dora2ios
