@@ -279,18 +279,18 @@ Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to S
 Name: Dropbear
 
 Package: com.lukezgd.everuntether
-Version: 1.1-1
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
-Depends: firmware (>= 8.0), firmware (<= 9.0.2), uikittools (>= 1.1.10)
-Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, jp.daibutsu.untether841, io.pangu.fuxiqin9
+Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, jp.daibutsu.untether841, io.pangu.fuxiqin9, net.tihmstar.daemonloader, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether.deb
-Size: 90178
-MD5sum: be42f3ef49a987659741eb246af18442
-SHA1: 73c60804172cc471f47eebc51820d85109885921
-SHA256: d0ca5f052689fcd92ed1d1cb349470a5db0fb9081c2098169753fde007242395
+Size: 91506
+MD5sum: 635c9d84a3476e81cd4f68a2bc1c2816
+SHA1: 36248fa68ac7f3151caf3401f5ddadd6ce66f816
+SHA256: 145ddbe1238e5f30719a625f84e1302494dad4ce3a652b24e12583e90a574057
 Section: System
-Description: Untether package for EverPwnage jailbreak. jsc untether + sock_port_2_legacy + daibutsu untether.
+Description: Untether package for EverPwnage jailbreak: jsc untether + sock_port_2_legacy + daibutsu untether. Used on A5(X) devices on iOS 8.0-8.2, and all devices on iOS 8.4 and 9.0-9.3.4.
 Author: LukeZGD
 Name: EverUntether
 
@@ -756,47 +756,6 @@ Section: Tweaks
 Description: Make Ultrasound work on iOS 10 (and below maybe?)
 Author: ARX8x
 Name: Ultrasound patch
-
-Package: net.tihmstar.daemonloader
-Version: 1.0.0
-Architecture: iphoneos-arm
-Conflicts: cy+cpu.arm64
-Filename: debs/net.tihmstar.daemonloader-1.0.0.deb
-Size: 65904
-MD5sum: 1e64eea96f8ff4d1cabc0e96d46751ce
-SHA1: d695863ee2aee73779fe10f3081c959c11ed7aad
-SHA256: 4e084a59c01a9ea670af53cb609de491f7c7218382975730f0b36b77842f4ec5
-Section: System
-Description: Actually loads launchdaemons on jsc/rtbuddyd untethers
- <br>
- Use this to have openssh loaded with etasonuntether or untetherhomedepot
- <br>
- Use orphan_commander (libtakeover) spawned from untether
- to wait until syslogd is started and then injects to it
- and runs "lanchctl load /Library/LaunchDaemons"
- <br>
-Author: tihmstar
-Dev: tihmstar
-Name: Daemonloader
-
-Package: net.tihmstar.untetherhomedepot
-Version: 1.5.2
-Architecture: iphoneos-arm
-Maintainer: LukeZGD
-Depends: net.tihmstar.daemonloader, firmware (>= 9.1), firmware (<= 9.3.4)
-Conflicts: cy+cpu.arm64, net.tihmstar.untetherhomedepotoffsets, io.pangu.fuxiqin9
-Replaces: net.tihmstar.betterhomedepot
-Filename: debs/net.tihmstar.untetherhomedepot.deb
-Size: 22918
-MD5sum: 9b939b5d365688afe131e6c30cd04e0e
-SHA1: d145350a9e869d6ce4dec60c2ee5d81348d67758
-SHA256: c2522c9649a1501ae073aa7c5f438ab91fa5d990507a3b4edcdd67251604cdf5
-Section: System
-Priority: optional
-Description: Untether for iOS 9.1-9.3.4 32-bit
-Author: tihmstar
-Dev: tihmstar
-Name: UntetherHomeDepot
 
 Package: org.coolstar.stash933
 Version: 1.5.2
