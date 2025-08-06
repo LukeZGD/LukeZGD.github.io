@@ -248,16 +248,16 @@ Author: LukeZGD
 Name: CoolBooter Fix for Socket
 
 Package: com.lukezgd.daibutsumigrator
-Version: 2.0.3-3
+Version: 2.0.3-4
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 8.4.1), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.everuntether
 Filename: debs/com.lukezgd.daibutsumigrator.deb
-Size: 61688
-MD5sum: d668362610f327be373019610cdf2dd1
-SHA1: 5ddf1a7e6e4283b43b4ce45541b0db0d49db67d3
-SHA256: c7295896d35e0efdfac97f7b8e5ae1df7fadfe3886bc6c0bca9c8e81521efa00
+Size: 60804
+MD5sum: c4650cbfc81ad4199bb2cc521e6fa678
+SHA1: 04bd1e3d2ae9240efa4912f0475e316f88619fd0
+SHA256: e79b1e48ed567e253bf6b0b56e0902f2592f5b10f5d50aa93d9dddac54f23cf2
 Section: System
 Description: Migrate from EtasonJB/HomeDepot/openpwnage to daibutsu untether. Remove this package after the migration process.
 Author: LukeZGD
