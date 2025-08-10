@@ -248,16 +248,16 @@ Author: LukeZGD
 Name: CoolBooter Fix for Socket
 
 Package: com.lukezgd.daibutsumigrator
-Version: 2.0.3-4
+Version: 2.0.3-5
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 8.4.1), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.everuntether
 Filename: debs/com.lukezgd.daibutsumigrator.deb
-Size: 60804
-MD5sum: c4650cbfc81ad4199bb2cc521e6fa678
-SHA1: 04bd1e3d2ae9240efa4912f0475e316f88619fd0
-SHA256: e79b1e48ed567e253bf6b0b56e0902f2592f5b10f5d50aa93d9dddac54f23cf2
+Size: 61936
+MD5sum: a388f052ba1b9d39e6bcaa9bd071cdc1
+SHA1: ff61838f6b7a0d9495dc92303968f12b5803767c
+SHA256: 1b561a5193d336202ddc7216f71b90f17f44354142ed333719958981fdcd4bd0
 Section: System
 Description: Migrate from EtasonJB/HomeDepot/openpwnage to daibutsu untether. Remove this package after the migration process.
 Author: LukeZGD
@@ -279,18 +279,18 @@ Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to S
 Name: Dropbear
 
 Package: com.lukezgd.everuntether
-Version: 1.2-1
+Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
-Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, jp.daibutsu.untether841, io.pangu.fuxiqin9, net.tihmstar.daemonloader, net.tihmstar.untetherhomedepot
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether.deb
-Size: 91522
-MD5sum: 91094fb4cb6e94f0fe68fe9391a2dd92
-SHA1: 1611c69074a5fcca63fbe3270a77b1248644c4f9
-SHA256: 91eedb560c802288fa208b83bb9b3046a150b8fee8edcd82da86e0029bd4bfad
+Size: 88918
+MD5sum: c0b64eadf20ec41e2b18bee720a1bf88
+SHA1: bb7945dff8f875bb50c8981ffb69ad16a111e946
+SHA256: c67beb53ec537fefda5cad40118715100b73b87e8a884ab45f5e3df0b2c59ee6
 Section: System
-Description: Untether package for EverPwnage jailbreak: jsc untether + sock_port_2_legacy + daibutsu untether. Used on A5(X) devices on iOS 8.0-8.2, and all devices on iOS 8.4 and 9.0-9.3.4.
+Description: Untether package for EverPwnage jailbreak: jsc untether + oob_entry + daibutsu untether. Compatible with all 32-bit devices on iOS 8.0-9.3.4.
 Author: LukeZGD
 Name: EverUntether
 
