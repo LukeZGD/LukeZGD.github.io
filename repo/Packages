@@ -263,32 +263,32 @@ Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to S
 Name: Dropbear
 
 Package: com.lukezgd.everuntether
-Version: 1.3.1-1
+Version: 1.3.2
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10), com.lukezgd.everuntether-bin
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether.deb
 Size: 71358
-MD5sum: 96e38f9958662381f891a391b6d7e5e0
-SHA1: be36b9614e70f2ca6326b17e1fdf3e37e7d9944f
-SHA256: 9dc59f21677070932258b11ee3e6c7fa1190df30d3d053eee0bdff48ee7c66b6
+MD5sum: 7146677903a7f76d5e74249c192deee3
+SHA1: b93a38d432d34367c8a33160c7f033739067927a
+SHA256: c076ef6ae7d6bcb772ddabde380bb2463263faf460e707fa6e5245ac5627262d
 Section: System
 Description: Untether package for EverPwnage jailbreak: jsc untether + oob_entry + daibutsu untether. Compatible with all 32-bit devices on iOS 8.0-9.3.4.
 Author: LukeZGD
 Name: EverUntether Package
 
 Package: com.lukezgd.everuntether-bin
-Version: 1.3.1
+Version: 1.3.2
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether-bin.deb
 Size: 18690
-MD5sum: 259d75657885fd4e78fb865761365ea6
-SHA1: 40118ccc5a0caf5ff27d8a9eb205b9be6f2414ff
-SHA256: bac82fc04ccd388b32c1957b11c0ed41c4bc284196af4f27a738dbe724e7e2cd
+MD5sum: bfad6b00600d76758f9d207925c71673
+SHA1: a4114209de796e954eb012692822285534887a91
+SHA256: 9613edce8a4fc439da924ffec371b50855b57d03ba0ee139b6d6fbae189148de
 Section: System
 Description: Untether binary for EverPwnage jailbreak.
 Author: LukeZGD
