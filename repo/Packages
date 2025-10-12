@@ -47,27 +47,6 @@ Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
 Name: appinst (App Installer)
 
 Package: ai.akemi.appsyncunified
-Version: 110.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 700
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/nodelete-ai.akemi.appsyncunified.deb
-Size: 58440
-MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
-SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
-SHA256: fa97d20ecaab914c7d07fc17ff2f31c15d34b33a5eebc158cb2c83e8a7ec2abc
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Name: AppSync Unified
-
-Package: ai.akemi.appsyncunified
 Version: 116.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
@@ -354,6 +333,22 @@ Section: System
 Description: NewTerm 2 installer for socket jailbreak and other rootful (mainly for iOS 14 and lower) jailbreaks. Users must have https://repo.chariz.com added to Sources to proceed. You may remove this package after NewTerm 2 is installed.
 Author: LukeZGD
 Name: NewTerm 2 Installer for Socket
+
+Package: com.lukezgd.pangu7-migrator
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 7.1), firmware (<= 7.1.2), io.pangu.axe7 (>= 0.3)
+Conflicts: cy+cpu.arm64
+Filename: debs/com.lukezgd.pangu7-migrator.deb
+Size: 1144
+MD5sum: e4080ce1855866f51932999cec86522c
+SHA1: 563520726bc92021ddf80ed6ef852fb7c61ba05c
+SHA256: f002a23971ba28d96638d9b6a627ee2d4211d38f2eb49671d9339e51ca3f116c
+Section: System
+Description: Migrate from Lyncis Untether to Pangu7 Untether. Remove this package after the migration process.
+Author: LukeZGD
+Name: Pangu7 Migrator
 
 Package: com.parrotgeek.ifilefix
 Version: 1.0
