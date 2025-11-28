@@ -106,22 +106,6 @@ Name: Ultrasound
 
 Package: com.4nni3.coolcc
 Version: 1:4.0
-Architecture: iphoneos-arm64
-Maintainer: 4nni3 <4nni3.14@gmail.com>
-Installed-Size: 328
-Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
-Filename: debs/com.4nni3.coolcc_1_4.0_iphoneos-arm64.deb
-Size: 43120
-MD5sum: deb4f9082296c889abdfae6190570e96
-SHA1: 4c618650395925ac2fc134d67c22fd50db9a336a
-SHA256: 8e892b3ed893cd307bd91a83370f7139f3d9d2ea72db764d6697b7f6ee1b4c62
-Section: Tweaks
-Description: Makes ControlCenter cool.
-Author: 4nni3 <4nni3.14@gmail.com>
-Name: CoolCC
-
-Package: com.4nni3.coolcc
-Version: 1:4.0
 Architecture: iphoneos-arm
 Maintainer: 4nni3 <4nni3.14@gmail.com>
 Installed-Size: 328
@@ -131,6 +115,22 @@ Size: 40440
 MD5sum: 6b2db277637ccb354bb2a0e70704df74
 SHA1: 60c8de3b5b8d3674a27788011fa329573bd0c8e3
 SHA256: d18d723c5f8a0ce3e1461bf22def7e80e7876ffaaafd582228d20b592ba13abe
+Section: Tweaks
+Description: Makes ControlCenter cool.
+Author: 4nni3 <4nni3.14@gmail.com>
+Name: CoolCC
+
+Package: com.4nni3.coolcc
+Version: 1:4.0
+Architecture: iphoneos-arm64
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 328
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Filename: debs/com.4nni3.coolcc_1_4.0_iphoneos-arm64.deb
+Size: 43120
+MD5sum: deb4f9082296c889abdfae6190570e96
+SHA1: 4c618650395925ac2fc134d67c22fd50db9a336a
+SHA256: 8e892b3ed893cd307bd91a83370f7139f3d9d2ea72db764d6697b7f6ee1b4c62
 Section: Tweaks
 Description: Makes ControlCenter cool.
 Author: 4nni3 <4nni3.14@gmail.com>
@@ -422,25 +422,6 @@ Name: iPadUI
 
 Package: com.pholic.modernui
 Version: 1.1.5
-Architecture: iphoneos-arm64
-Maintainer: pholic <pholic@gmail.com>
-Installed-Size: 136
-Depends: mobilesubstrate, firmware (>= 13)
-Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Filename: debs/com.pholic.modernui_1.1.5_iphoneos-arm64.deb
-Size: 3326
-MD5sum: 337b60f989ad636986e9952661a88601
-SHA1: 567aace25aa5823ff5dcb252645ba49b441890cf
-SHA256: 6d614ce6c6503c290b7c15a924cee5b670b754767ba401e5669988c09ab9ad2a
-Section: Tweaks
-Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
-Author: pholic <pholic@gmail.com>
-Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Name: ModernUI
-
-Package: com.pholic.modernui
-Version: 1.1.5
 Architecture: iphoneos-arm
 Maintainer: pholic <pholic@gmail.com>
 Installed-Size: 136
@@ -458,23 +439,24 @@ Author: pholic <pholic@gmail.com>
 Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
 Name: ModernUI
 
-Package: com.pholic.modernuiplus
-Version: 1.0.1
+Package: com.pholic.modernui
+Version: 1.1.5
 Architecture: iphoneos-arm64
 Maintainer: pholic <pholic@gmail.com>
-Installed-Size: 272
+Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 13)
-Replaces: com.pholic.modernui, com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Filename: debs/com.pholic.modernuiplus_1.0.1_iphoneos-arm64.deb
-Size: 5454
-MD5sum: 10400e21293ecefc9884abbdd1f4ea41
-SHA1: af81904f0a978348716cda43698ce538698f71fa
-SHA256: f593772210a54987777805458efccdbf0db024a12091b670bf2cbdca81f064fd
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernui_1.1.5_iphoneos-arm64.deb
+Size: 3326
+MD5sum: 337b60f989ad636986e9952661a88601
+SHA1: 567aace25aa5823ff5dcb252645ba49b441890cf
+SHA256: 6d614ce6c6503c290b7c15a924cee5b670b754767ba401e5669988c09ab9ad2a
 Section: Tweaks
-Description: Modern gestures for IOS 13 & 14, no large titles, no dock background, percentage inside the battery, iPad status bar and switcher, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options.
-Author: pholic
-Conflict: com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Name: ModernUI Plus
+Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI
 
 Package: com.pholic.modernuiplus
 Version: 1.0.1
@@ -494,21 +476,23 @@ Author: pholic
 Conflict: com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
 Name: ModernUI Plus
 
-Package: com.ra9stuff.accessoryalertblocker
-Version: 0.0.1-2
-Architecture: iphoneos-arm
-Maintainer: rA9stuff
-Installed-Size: 216
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.ra9stuff.accessoryalertblocker_0.0.1_iphoneos-arm.deb
-Size: 4908
-MD5sum: fd284f54ce49e93397e462947f5f1ad2
-SHA1: 3518e993db934723dfaaf5b7fd83f3d49b10c4c1
-SHA256: a5663a19248dce79aa74b7f23b75b3dc893260012cfa9ff908675721da0f9844
+Package: com.pholic.modernuiplus
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernui, com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernuiplus_1.0.1_iphoneos-arm64.deb
+Size: 5454
+MD5sum: 10400e21293ecefc9884abbdd1f4ea41
+SHA1: af81904f0a978348716cda43698ce538698f71fa
+SHA256: f593772210a54987777805458efccdbf0db024a12091b670bf2cbdca81f064fd
 Section: Tweaks
-Description: blocks downloading accessory firmware alert.
-Author: rA9stuff
-Name: accessoryalertblocker
+Description: Modern gestures for IOS 13 & 14, no large titles, no dock background, percentage inside the battery, iPad status bar and switcher, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options.
+Author: pholic
+Conflict: com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI Plus
 
 Package: com.ra9stuff.accessoryalertblocker
 Version: 0.0.1-2
@@ -526,30 +510,21 @@ Description: blocks downloading accessory firmware alert.
 Author: rA9stuff
 Name: accessoryalertblocker
 
-Package: com.tomaszpoliszuk.magsafecontroller
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 496
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
-Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
-Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
-Filename: debs/com.tomaszpoliszuk.magsafecontroller_1.1.3_iphoneos-arm64.deb
-Size: 102934
-MD5sum: f88a4f6402a9af6333f1f361dd576cf9
-SHA1: 5065af0d4ab1edd2f669dfb9903442070ef9bfc9
-SHA256: de9d6cd4e7347eb128484b46c1a364b80104de6d54e900658fae036b160bf7a0
+Package: com.ra9stuff.accessoryalertblocker
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.ra9stuff.accessoryalertblocker_0.0.1_iphoneos-arm.deb
+Size: 4908
+MD5sum: fd284f54ce49e93397e462947f5f1ad2
+SHA1: 3518e993db934723dfaaf5b7fd83f3d49b10c4c1
+SHA256: a5663a19248dce79aa74b7f23b75b3dc893260012cfa9ff908675721da0f9844
 Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
-Description: Customizable native "MagSafe" charging view
-Tag: purpose::extension
-Author: Tomasz Poliszuk
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
-Dev: tomaszpoliszuk
-Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/MagSafeController@3x.png
-Name: MagSafe Controller
-Sponsor: thebigboss.org <http://thebigboss.org>
+Description: blocks downloading accessory firmware alert.
+Author: rA9stuff
+Name: accessoryalertblocker
 
 Package: com.tomaszpoliszuk.magsafecontroller
 Version: 1.1.3
@@ -565,6 +540,31 @@ Size: 93200
 MD5sum: 32262b3bfb3a9b3745a9de49f9dd8d85
 SHA1: d37954a47a12db43eb443ccdf6e7cc8bf11a03fc
 SHA256: 31e051caf2d0e9e7cccc7d9ccac0c9fa2d99353f3778074b4a17ba12b6085238
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Description: Customizable native "MagSafe" charging view
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/MagSafeController@3x.png
+Name: MagSafe Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.magsafecontroller
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 496
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: debs/com.tomaszpoliszuk.magsafecontroller_1.1.3_iphoneos-arm64.deb
+Size: 102934
+MD5sum: f88a4f6402a9af6333f1f361dd576cf9
+SHA1: 5065af0d4ab1edd2f669dfb9903442070ef9bfc9
+SHA256: de9d6cd4e7347eb128484b46c1a364b80104de6d54e900658fae036b160bf7a0
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
 Description: Customizable native "MagSafe" charging view
@@ -714,14 +714,14 @@ Name: libpartialzip-1.0.0
 
 Package: me.jjolano.alertdismiss
 Version: 1.0.4
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: jjolano <jjolano@me.com>
 Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
-Filename: debs/me.jjolano.alertdismiss_1.0.4_iphoneos-arm64.deb
-Size: 14936
-MD5sum: aafdecff1cda78f7877a373dcf4c0e07
-SHA1: 9b4ad7ec99a3b1480af36fc7f4dceb31b5bb1167
-SHA256: 33ef491d32f1f7642b0710aba11db3ad5c11bde9800f92d2ce46a62544b23872
+Filename: debs/me.jjolano.alertdismiss.deb
+Size: 25240
+MD5sum: 2282ea8ff09e382807e1aa3399996d8d
+SHA1: a0d8427704e3e458e1ed7c373d1ff236c58e1ffc
+SHA256: d7ad8fa1edf908499c807075ee62b947cd1b329300d0dc12cdf79171e69f2fb1
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: Add a Force Dismiss button to any UIAlertController.
@@ -734,14 +734,14 @@ Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.
 
 Package: me.jjolano.alertdismiss
 Version: 1.0.4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: jjolano <jjolano@me.com>
 Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
-Filename: debs/me.jjolano.alertdismiss.deb
-Size: 25240
-MD5sum: 2282ea8ff09e382807e1aa3399996d8d
-SHA1: a0d8427704e3e458e1ed7c373d1ff236c58e1ffc
-SHA256: d7ad8fa1edf908499c807075ee62b947cd1b329300d0dc12cdf79171e69f2fb1
+Filename: debs/me.jjolano.alertdismiss_1.0.4_iphoneos-arm64.deb
+Size: 14936
+MD5sum: aafdecff1cda78f7877a373dcf4c0e07
+SHA1: 9b4ad7ec99a3b1480af36fc7f4dceb31b5bb1167
+SHA256: 33ef491d32f1f7642b0710aba11db3ad5c11bde9800f92d2ce46a62544b23872
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: Add a Force Dismiss button to any UIAlertController.
@@ -767,6 +767,47 @@ Section: Tweaks
 Description: Make Ultrasound work on iOS 10 (and below maybe?)
 Author: ARX8x
 Name: Ultrasound patch
+
+Package: net.tihmstar.daemonloader
+Version: 1.0.0
+Architecture: iphoneos-arm
+Conflicts: cy+cpu.arm64
+Filename: debs/net.tihmstar.daemonloader-1.0.0.deb
+Size: 65904
+MD5sum: 1e64eea96f8ff4d1cabc0e96d46751ce
+SHA1: d695863ee2aee73779fe10f3081c959c11ed7aad
+SHA256: 4e084a59c01a9ea670af53cb609de491f7c7218382975730f0b36b77842f4ec5
+Section: System
+Description: Actually loads launchdaemons on jsc/rtbuddyd untethers
+ <br>
+ Use this to have openssh loaded with etasonuntether or untetherhomedepot
+ <br>
+ Use orphan_commander (libtakeover) spawned from untether
+ to wait until syslogd is started and then injects to it
+ and runs "lanchctl load /Library/LaunchDaemons"
+ <br>
+Author: tihmstar
+Dev: tihmstar
+Name: Daemonloader
+
+Package: net.tihmstar.untetherhomedepot
+Version: 1.5.2
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: net.tihmstar.daemonloader, firmware (>= 9.1), firmware (<= 9.3.4)
+Conflicts: cy+cpu.arm64, net.tihmstar.untetherhomedepotoffsets, io.pangu.fuxiqin9
+Replaces: net.tihmstar.betterhomedepot
+Filename: debs/net.tihmstar.untetherhomedepot.deb
+Size: 22918
+MD5sum: 9b939b5d365688afe131e6c30cd04e0e
+SHA1: d145350a9e869d6ce4dec60c2ee5d81348d67758
+SHA256: c2522c9649a1501ae073aa7c5f438ab91fa5d990507a3b4edcdd67251604cdf5
+Section: System
+Priority: optional
+Description: Untether for iOS 9.1-9.3.4 32-bit
+Author: tihmstar
+Dev: tihmstar
+Name: UntetherHomeDepot
 
 Package: org.coolstar.stash933
 Version: 1.5.2
