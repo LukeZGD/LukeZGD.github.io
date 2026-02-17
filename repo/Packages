@@ -242,16 +242,16 @@ Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to S
 Name: Dropbear
 
 Package: com.lukezgd.everuntether
-Version: 1.3.4
+Version: 1.3.6
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10), com.lukezgd.everuntether-bin
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether.deb
-Size: 71354
-MD5sum: 913393973a56b9097e1b6bb9494dc9a0
-SHA1: d42768254569bb6d4d42019050b80b8a78de8b15
-SHA256: 9654551636c8643c66c597632b966e3e9732419db111d2c4191e0fda921d4981
+Size: 71356
+MD5sum: 8debfd9bfc61db63e13adce04d7a62d8
+SHA1: 5fc1687ef0a36ce2e5b3752b2937edf2f94ebd89
+SHA256: a4e8500391c76e860080302a8a7deded744054e0f35c28cb2805b78b9444dffc
 Section: System
 Description: Untether package for EverPwnage jailbreak: jsc untether + oob_entry + daibutsu untether. Compatible with all 32-bit devices on iOS 8.0-9.3.4.
 Author: LukeZGD
@@ -279,11 +279,27 @@ Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
-Filename: debs/everuntether-bin.deb
+Filename: debs/everuntether-bin-1.3.5.deb
 Size: 18802
 MD5sum: aeaf2b7411c8344f403f41c9c4bf8a88
 SHA1: af42a96e0f3a2f52965e017d6dd7ef724cd370e9
 SHA256: 0806375566b377de120885cf091c411821eb943952c4e701e3faa39651b1e35e
+Section: System
+Description: Untether binary for EverPwnage jailbreak.
+Author: LukeZGD
+Name: EverUntether Binary
+
+Package: com.lukezgd.everuntether-bin
+Version: 1.3.6
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
+Filename: debs/everuntether-bin.deb
+Size: 18798
+MD5sum: 3ad6c6225a59a4927684b91b2c7fecfc
+SHA1: 1aef2ebd3abf11e54ff65b0a1085ffc0a3066c96
+SHA256: 7eff022fd0ec3b5471e92fcd3b6484c368c573e784e127723fcb9d58876b3c98
 Section: System
 Description: Untether binary for EverPwnage jailbreak.
 Author: LukeZGD
