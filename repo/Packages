@@ -233,10 +233,10 @@ Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10), com.lukezgd.everuntether-bin
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether.deb
-Size: 71346
-MD5sum: 9664229683e3f7b5b95483f9d6688b78
-SHA1: c45911515ae7963f23ce6ebb4fd6794708db7cc8
-SHA256: 6f7b06100c4e329f8fb5b1765cd7b4ceeec767b3662e9813711f436034adf6b8
+Size: 71354
+MD5sum: 5f9c88e8df5f0668cb34bc49b0d52f05
+SHA1: a68597e84bc71a79c943d1a0ea1ad458f8212af6
+SHA256: f8c825917925906275311bbd9cf9bd787313478cee18a8aafce304d639fdd88b
 Section: System
 Description: Untether package for EverPwnage jailbreak: jsc untether + oob_entry + daibutsu untether. Compatible with all 32-bit devices on iOS 8.0-9.3.4.
 Author: LukeZGD
@@ -265,10 +265,10 @@ Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether-bin.deb
-Size: 18520
-MD5sum: c8d28039de2bdb3e01d789dbc94cfa2b
-SHA1: 07edde5460beb7d507022e5b8170eae322d56a5c
-SHA256: ffff4e8f938f91d5232552af74b5ddfbeb28dfa53ffb3ebe96402f4941cc978a
+Size: 18718
+MD5sum: 4d6bc4c9dfdd01e205cf95c406542690
+SHA1: 34a9bfb55d57752472ffd80f531bd980aa9ced06
+SHA256: a4bd7fbf39685219ecef4c0fd67f377b4ea70cf41cdff90eb1f756fd52c60cef
 Section: System
 Description: Untether binary for EverPwnage jailbreak.
 Author: LukeZGD
