@@ -211,21 +211,6 @@ Description: Get percentages for the sliders in the Control Center on iOS 11, 12
 Author: iOS Creatix, kasiimh1
 Name: SugarCane
 
-Package: com.lukezgd.cbfixforsocket
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: LukeZGD
-Depends: com.coolbooter.coolbooter (<< 1.6), com.staturnz.containerresign
-Filename: debs/com.lukezgd.cbfixforsocket.deb
-Size: 908
-MD5sum: 867eeb4a72b304558036596bee6c6af0
-SHA1: ecf129c701a75b934ea262317a6879a23c38fae0
-SHA256: 0d78875cafdcadeaba47997e3dbbf104a1b04dc5de5c6dbc16db1d66c2792d4b
-Section: System
-Description: Fix CoolBooter error for socket jailbreak. Downgrade Coolbooter to 1.5 or 1.4.1 first before installing this package. You may remove this package after fix is applied. You may also re-install this package anytime to fix CoolBooter on upgrade/downgrade.
-Author: LukeZGD
-Name: CoolBooter Fix for Socket
-
 Package: com.lukezgd.dropbear
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -380,21 +365,6 @@ Section: System
 Description: More device support for kDFUApp
 Author: LukeZGD
 Name: kDFUApp Bundles
-
-Package: com.lukezgd.newterminstaller
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: LukeZGD
-Depends: ws.hbang.common (<< 2.0), ws.hbang.newterm2 (>= 2.5)
-Filename: debs/com.lukezgd.newterminstaller.deb
-Size: 822
-MD5sum: 01ffbc9f21e7bf3d361f4106697218b6
-SHA1: 672984633ba43a8d62687f01b9d2edbc7d1fd369
-SHA256: 3c42336d48eb688cdba72b8d628193e308ccc66d3d8796b861aa599cc74678fd
-Section: System
-Description: NewTerm 2 installer for socket jailbreak and other rootful (mainly for iOS 14 and lower) jailbreaks. Users must have https://repo.chariz.com added to Sources to proceed. You may remove this package after NewTerm 2 is installed.
-Author: LukeZGD
-Name: NewTerm 2 Installer for Socket
 
 Package: com.lukezgd.pangu7-migrator
 Version: 1.0
