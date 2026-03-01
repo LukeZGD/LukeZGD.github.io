@@ -259,16 +259,16 @@ Author: LukeZGD
 Name: EverUntether Binary
 
 Package: com.lukezgd.everuntether-bin
-Version: 1.4
+Version: 1.4-1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether-bin.deb
-Size: 18718
-MD5sum: 4d6bc4c9dfdd01e205cf95c406542690
-SHA1: 34a9bfb55d57752472ffd80f531bd980aa9ced06
-SHA256: a4bd7fbf39685219ecef4c0fd67f377b4ea70cf41cdff90eb1f756fd52c60cef
+Size: 18858
+MD5sum: 9c08e5c74f75b6bb4c3f8ae9556e52c6
+SHA1: dfb2bfb0040971f8d15ad22ca7b00f8a56c797d8
+SHA256: 2492e0cae39f4c9db353370e37bc4b06ada4ee43d7a866abc1e6ba14484e4f17
 Section: System
 Description: Untether binary for EverPwnage jailbreak.
 Author: LukeZGD
