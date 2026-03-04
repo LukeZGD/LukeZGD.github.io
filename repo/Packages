@@ -211,6 +211,22 @@ Description: Get percentages for the sliders in the Control Center on iOS 11, 12
 Author: iOS Creatix, kasiimh1
 Name: SugarCane
 
+Package: com.lukezgd.aquila-migrator
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 5.0), firmware (<= 6.1.6)
+Conflicts: cy+cpu.arm64
+Filename: debs/com.lukezgd.aquila-migrator.deb
+Size: 19690
+MD5sum: e19c625c898343eb973a31a46a0c5a11
+SHA1: 21790dda91e2b62534db6d39215fe3f1b7eba50d
+SHA256: a45a92fc13e5da4b7e32a9c2b86c259d1ce87a5963e24b451bf714f8da84c90b
+Section: System
+Description: Migrate from g1lbertJB/evasi0n6/p0sixspwn to Aquila Untether. Remove this package after the migration process.
+Author: LukeZGD
+Name: Aquila Migrator
+
 Package: com.lukezgd.dropbear
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -292,21 +308,6 @@ Name: EverUntether Migrator
 
 Package: com.lukezgd.gaster
 Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: LukeZGD
-Depends: firmware (>= 15.0), com.ra9stuff.accessoryalertblocker
-Filename: debs/com.lukezgd.gaster_1.0.1_iphoneos-arm64.deb
-Size: 37114
-MD5sum: c8c7433703bd13f578d2eadbcededbe4
-SHA1: cb281cfc4545867862cbb301777ccc6208ddcdbb
-SHA256: 2dfb65771f65287c4a52977f8adff2bc6d942331a9f072421f614b1b73940c25
-Section: System
-Description: Pwning tool for A7-A11 devices.
-Author: 0x7ff
-Name: gaster
-
-Package: com.lukezgd.gaster
-Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 9.0), com.ra9stuff.accessoryalertblocker
@@ -315,6 +316,21 @@ Size: 37080
 MD5sum: 2536961d7346a26f77988337efcaf88a
 SHA1: 7466e70c430a8a78180d8204f0f87a42a25651bb
 SHA256: 64937908bb627b2d065d72342dc72b251cf53725458daff41d2238836d50cddd
+Section: System
+Description: Pwning tool for A7-A11 devices.
+Author: 0x7ff
+Name: gaster
+
+Package: com.lukezgd.gaster
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: LukeZGD
+Depends: firmware (>= 15.0), com.ra9stuff.accessoryalertblocker
+Filename: debs/com.lukezgd.gaster_1.0.1_iphoneos-arm64.deb
+Size: 37114
+MD5sum: c8c7433703bd13f578d2eadbcededbe4
+SHA1: cb281cfc4545867862cbb301777ccc6208ddcdbb
+SHA256: 2dfb65771f65287c4a52977f8adff2bc6d942331a9f072421f614b1b73940c25
 Section: System
 Description: Pwning tool for A7-A11 devices.
 Author: 0x7ff
@@ -714,23 +730,6 @@ Name: libcrippy-1.0.0
 
 Package: libkrw-dev
 Version: 1.1.2
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 16
-Depends: libkrw0 (= 1.1.2)
-Filename: debs/libkrw-dev_1.1.2_rootful_iphoneos-arm.deb
-Size: 4164
-MD5sum: c740592fcea91c6783cdfd45ac1d6f4c
-SHA1: 3d30a83971b40412f9e8580a2e10f56088697259
-SHA256: cab69bd7801f5405208f364fdb7e27b759f42809441d72cdd09331c7f099cfa0
-Section: Development
-Priority: optional
-Homepage: https://github.com/Cryptiiiic/libkrw
-Description: A kernel R/W API for jailbreaks (Development Files)
-Author: Cryptiiiic
-
-Package: libkrw-dev
-Version: 1.1.2
 Architecture: iphoneos-arm64
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 16
@@ -746,22 +745,21 @@ Homepage: https://github.com/Cryptiiiic/libkrw
 Description: A kernel R/W API for jailbreaks (Development Files)
 Author: Cryptiiiic
 
-Package: libkrw0
+Package: libkrw-dev
 Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 56
-Depends: libiosexec1 (>= 1.3.1), libkrw0-plugin
-Provides: libkrw (= 1.1.2)
-Filename: debs/libkrw0_1.1.2_rootful_iphoneos-arm.deb
-Size: 5316
-MD5sum: 100aac17ecdf069d525013e91b2dbc88
-SHA1: 7dcf780c104f9d90af0d8a35e383852007d5804d
-SHA256: 535a96a0982729b5cf510db4717590cf707f9bcd494d121666df44d4bc8375df
-Section: Libraries
-Priority: standard
+Installed-Size: 16
+Depends: libkrw0 (= 1.1.2)
+Filename: debs/libkrw-dev_1.1.2_rootful_iphoneos-arm.deb
+Size: 4164
+MD5sum: c740592fcea91c6783cdfd45ac1d6f4c
+SHA1: 3d30a83971b40412f9e8580a2e10f56088697259
+SHA256: cab69bd7801f5405208f364fdb7e27b759f42809441d72cdd09331c7f099cfa0
+Section: Development
+Priority: optional
 Homepage: https://github.com/Cryptiiiic/libkrw
-Description: A kernel R/W API for jailbreaks (Shared Library)
+Description: A kernel R/W API for jailbreaks (Development Files)
 Author: Cryptiiiic
 
 Package: libkrw0
@@ -782,23 +780,22 @@ Homepage: https://github.com/Cryptiiiic/libkrw
 Description: A kernel R/W API for jailbreaks (Shared Library)
 Author: Cryptiiiic
 
-Package: libkrw0-tfp0
+Package: libkrw0
 Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 56
-Depends: libiosexec1 (>= 1.3.1)
-Enhances: libkrw0
-Provides: libkrw0-plugin
-Filename: debs/libkrw0-tfp0_1.1.2_rootful_iphoneos-arm.deb
-Size: 5404
-MD5sum: 0187043cf61689ba5cc0d408f34f12e9
-SHA1: bbea6974e1bcdbf3022177e9aabc5649f4d0505a
-SHA256: edc2d48c526e3a5631c5011a92968294a550ce21db4018bf830a6cadc419f645
+Depends: libiosexec1 (>= 1.3.1), libkrw0-plugin
+Provides: libkrw (= 1.1.2)
+Filename: debs/libkrw0_1.1.2_rootful_iphoneos-arm.deb
+Size: 5316
+MD5sum: 100aac17ecdf069d525013e91b2dbc88
+SHA1: 7dcf780c104f9d90af0d8a35e383852007d5804d
+SHA256: 535a96a0982729b5cf510db4717590cf707f9bcd494d121666df44d4bc8375df
 Section: Libraries
 Priority: standard
 Homepage: https://github.com/Cryptiiiic/libkrw
-Description: Plugin for libkrw that interfaces with tfp0/hgsp4 (Shared Library)
+Description: A kernel R/W API for jailbreaks (Shared Library)
 Author: Cryptiiiic
 
 Package: libkrw0-tfp0
@@ -814,6 +811,25 @@ Size: 5530
 MD5sum: 1e4aca0ed2b051b9adc8a38947a09052
 SHA1: 2083e3900d5a9420a0f83a1ac40dcee30239c500
 SHA256: 950cb7557c63732f58034550933d49c91964fbf7fb2d464104dea1fddeddc48e
+Section: Libraries
+Priority: standard
+Homepage: https://github.com/Cryptiiiic/libkrw
+Description: Plugin for libkrw that interfaces with tfp0/hgsp4 (Shared Library)
+Author: Cryptiiiic
+
+Package: libkrw0-tfp0
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 56
+Depends: libiosexec1 (>= 1.3.1)
+Enhances: libkrw0
+Provides: libkrw0-plugin
+Filename: debs/libkrw0-tfp0_1.1.2_rootful_iphoneos-arm.deb
+Size: 5404
+MD5sum: 0187043cf61689ba5cc0d408f34f12e9
+SHA1: bbea6974e1bcdbf3022177e9aabc5649f4d0505a
+SHA256: edc2d48c526e3a5631c5011a92968294a550ce21db4018bf830a6cadc419f645
 Section: Libraries
 Priority: standard
 Homepage: https://github.com/Cryptiiiic/libkrw
@@ -838,24 +854,6 @@ Name: libpartialzip-1.0.0
 
 Package: libx8a4-1
 Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 240
-Depends: libiosexec1 (>= 1.3.1), libkrw0
-Provides: libx8a4-1 (= 1.0.2)
-Filename: debs/libx8a4-1_1.0.2_rootful_iphoneos-arm.deb
-Size: 77792
-MD5sum: dbde92f978d6c1eb8281430d5219f90b
-SHA1: 54c5c34602574ac1aac3fa819ed4b45373aec54a
-SHA256: db2a92e14aed2002bd23025c82f36cd255bb69cb734c3b06287bf14a589b3a2c
-Section: Libraries
-Priority: standard
-Homepage: https://github.com/Cryptiiiic/x8A4
-Description: An all-in-one tool for firmware nonces, seeds, and downgrade support (Shared Library)
-Author: Cryptiiiic
-
-Package: libx8a4-1
-Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 240
@@ -872,21 +870,22 @@ Homepage: https://github.com/Cryptiiiic/x8A4
 Description: An all-in-one tool for firmware nonces, seeds, and downgrade support (Shared Library)
 Author: Cryptiiiic
 
-Package: libx8a4-dev
+Package: libx8a4-1
 Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 44
-Depends: libx8a4-1 (= 1.0.2)
-Filename: debs/libx8a4-dev_1.0.2_rootful_iphoneos-arm.deb
-Size: 5014
-MD5sum: 7133157a5c001b4f70ad84c2cc33706e
-SHA1: 8a3e9b51a5e69b617174c1b49a3d65dd2968afed
-SHA256: b98b468be1b9ac49cd00cd85e0221e3e285957cfba0cd89ead0d2db6d4fe6582
-Section: Development
-Priority: optional
+Installed-Size: 240
+Depends: libiosexec1 (>= 1.3.1), libkrw0
+Provides: libx8a4-1 (= 1.0.2)
+Filename: debs/libx8a4-1_1.0.2_rootful_iphoneos-arm.deb
+Size: 77792
+MD5sum: dbde92f978d6c1eb8281430d5219f90b
+SHA1: 54c5c34602574ac1aac3fa819ed4b45373aec54a
+SHA256: db2a92e14aed2002bd23025c82f36cd255bb69cb734c3b06287bf14a589b3a2c
+Section: Libraries
+Priority: standard
 Homepage: https://github.com/Cryptiiiic/x8A4
-Description: An all-in-one tool for firmware nonces, seeds, and downgrade support (Development Files)
+Description: An all-in-one tool for firmware nonces, seeds, and downgrade support (Shared Library)
 Author: Cryptiiiic
 
 Package: libx8a4-dev
@@ -900,6 +899,23 @@ Size: 5414
 MD5sum: d2b1ce371d87529982cb05dda8cdedaa
 SHA1: 32a80ac461d711709cab2b8ab2bc78e70e5a6fe7
 SHA256: 64a75466746685d9790ef766b4d01f8e2c06317bcd4989a20cb056d7f1f71995
+Section: Development
+Priority: optional
+Homepage: https://github.com/Cryptiiiic/x8A4
+Description: An all-in-one tool for firmware nonces, seeds, and downgrade support (Development Files)
+Author: Cryptiiiic
+
+Package: libx8a4-dev
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 44
+Depends: libx8a4-1 (= 1.0.2)
+Filename: debs/libx8a4-dev_1.0.2_rootful_iphoneos-arm.deb
+Size: 5014
+MD5sum: 7133157a5c001b4f70ad84c2cc33706e
+SHA1: 8a3e9b51a5e69b617174c1b49a3d65dd2968afed
+SHA256: b98b468be1b9ac49cd00cd85e0221e3e285957cfba0cd89ead0d2db6d4fe6582
 Section: Development
 Priority: optional
 Homepage: https://github.com/Cryptiiiic/x8A4
@@ -1013,25 +1029,6 @@ Name: kDFUApp
 
 Package: x8a4
 Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 92
-Depends: libiosexec1 (>= 1.3.1), libx8a4-1 (= 1.0.2)
-Enhances: dimentio
-Filename: debs/x8a4_1.0.2_rootful_iphoneos-arm.deb
-Size: 7834
-MD5sum: a444035ab0594ef6e61744cb64c187cf
-SHA1: 3e33ea953d1715158a7c30d6b9b11e67d1da6d4b
-SHA256: b284203d0e6b9586d333b14627b492a5856e116d3d24ef79788665ada1ab93a9
-Section: Utilities
-Priority: optional
-Homepage: https://github.com/Cryptiiiic/x8A4
-Description: An all-in-one tool for firmware nonces, seeds, and downgrade support
-Author: Cryptiiiic
-Name: x8A4
-
-Package: x8a4
-Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 92
@@ -1042,6 +1039,25 @@ Size: 7914
 MD5sum: d68b5efa7abdd844cb5564b4b7908f78
 SHA1: 5e643909f26c511159ec2238acd78b389f6ff987
 SHA256: ec6ad6937b092096b10d6722bdf93f734b2f4d9007b7dd8e43285f5b9f2b13b4
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/Cryptiiiic/x8A4
+Description: An all-in-one tool for firmware nonces, seeds, and downgrade support
+Author: Cryptiiiic
+Name: x8A4
+
+Package: x8a4
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 92
+Depends: libiosexec1 (>= 1.3.1), libx8a4-1 (= 1.0.2)
+Enhances: dimentio
+Filename: debs/x8a4_1.0.2_rootful_iphoneos-arm.deb
+Size: 7834
+MD5sum: a444035ab0594ef6e61744cb64c187cf
+SHA1: 3e33ea953d1715158a7c30d6b9b11e67d1da6d4b
+SHA256: b284203d0e6b9586d333b14627b492a5856e116d3d24ef79788665ada1ab93a9
 Section: Utilities
 Priority: optional
 Homepage: https://github.com/Cryptiiiic/x8A4
