@@ -259,16 +259,16 @@ Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to S
 Name: Dropbear
 
 Package: com.lukezgd.everuntether
-Version: 1.4
+Version: 1.3.6
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10), com.lukezgd.everuntether-bin
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
 Filename: debs/everuntether.deb
-Size: 71354
-MD5sum: 5f9c88e8df5f0668cb34bc49b0d52f05
-SHA1: a68597e84bc71a79c943d1a0ea1ad458f8212af6
-SHA256: f8c825917925906275311bbd9cf9bd787313478cee18a8aafce304d639fdd88b
+Size: 71356
+MD5sum: 8debfd9bfc61db63e13adce04d7a62d8
+SHA1: 5fc1687ef0a36ce2e5b3752b2937edf2f94ebd89
+SHA256: a4e8500391c76e860080302a8a7deded744054e0f35c28cb2805b78b9444dffc
 Section: System
 Description: Untether package for EverPwnage jailbreak: jsc untether + oob_entry + daibutsu untether. Compatible with all 32-bit devices on iOS 8.0-9.3.4.
 Author: LukeZGD
@@ -285,22 +285,6 @@ Size: 18798
 MD5sum: 3ad6c6225a59a4927684b91b2c7fecfc
 SHA1: 1aef2ebd3abf11e54ff65b0a1085ffc0a3066c96
 SHA256: 7eff022fd0ec3b5471e92fcd3b6484c368c573e784e127723fcb9d58876b3c98
-Section: System
-Description: Untether binary for EverPwnage jailbreak.
-Author: LukeZGD
-Name: EverUntether Binary
-
-Package: com.lukezgd.everuntether-bin
-Version: 1.4-1
-Architecture: iphoneos-arm
-Maintainer: LukeZGD
-Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
-Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
-Filename: debs/everuntether-bin.deb
-Size: 18858
-MD5sum: 9c08e5c74f75b6bb4c3f8ae9556e52c6
-SHA1: dfb2bfb0040971f8d15ad22ca7b00f8a56c797d8
-SHA256: 2492e0cae39f4c9db353370e37bc4b06ada4ee43d7a866abc1e6ba14484e4f17
 Section: System
 Description: Untether binary for EverPwnage jailbreak.
 Author: LukeZGD
