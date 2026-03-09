@@ -212,34 +212,34 @@ Author: iOS Creatix, kasiimh1
 Name: SugarCane
 
 Package: com.lukezgd.aquila-migrator
-Version: 2.0-1
+Version: 2.1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
-Depends: firmware (>= 5.0), firmware (<= 6.1.6)
-Conflicts: cy+cpu.arm64
+Depends: firmware (>= 4.3), firmware (<= 7.1.2)
+Conflicts: cy+cpu.arm64, com.lukezgd.pangu7-migrator
 Filename: debs/com.lukezgd.aquila-migrator.deb
-Size: 19774
-MD5sum: b4d583462ae9c1f5ef6e7c83b481615f
-SHA1: 533af321ef1fd7c03c1607df6af19a0c3a1af6da
-SHA256: ec3dda46261f16abb227b5c683439085f29e673368430041a097ba227019180c
+Size: 45878
+MD5sum: 1af2e87a379d53f5329ac5205bc1c78c
+SHA1: 76e062a98874198c512be493488731efb48c3e6c
+SHA256: 0109fb8aa83c9cefde720d3f27f04fe666f5e25abfe0bcc4c4b77050004dfd53
 Section: System
-Description: Migrate from other iOS 5/6 jailbreaks to Aquila v2.0 Untether. Can also be used to upgrade older Aquila installs. Remove this package after the migration process.
+Description: Migrate from other iOS 4.3.x/5/6/7 jailbreaks to Aquila v2.1 Untether. Can also be used to upgrade older Aquila/Lyncis installs. Remove this package after the migration process.
 Author: LukeZGD
 Name: Aquila Migrator
 
 Package: com.lukezgd.aquila-unmigrator
-Version: 2.0-1
+Version: 2.1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
-Depends: firmware (>= 5.0), firmware (<= 6.1.6)
+Depends: firmware (>= 4.3), firmware (<= 7.1.2)
 Conflicts: cy+cpu.arm64
 Filename: debs/com.lukezgd.aquila-unmigrator.deb
-Size: 974
-MD5sum: cebb79f50c6246ba24d11ac7d47ce63e
-SHA1: 680b7c522bf74f05fa48751a54e76e397577303d
-SHA256: 1e4a41e13defb29709178deb488f49a03589e5126c45d6c6d6720a3dcd4c89dd
+Size: 1270
+MD5sum: f26c8c4ee21a0de0bc0d547024a1ec54
+SHA1: 3f456ff106c29bc9354e714d0d8ad7ba7698d164
+SHA256: 720e9095fa6581eb0fbf29f33ced3a4725be74c0cb79849547e9c0d1b2e20656
 Section: System
-Description: Revert changes made by Aquila Migrator. Remove this package after the migration process.
+Description: Revert changes made by Aquila Migrator. Remove this package after the unmigration process.
 Author: LukeZGD
 Name: Aquila Unmigrator
 
