@@ -212,16 +212,16 @@ Author: iOS Creatix, kasiimh1
 Name: SugarCane
 
 Package: com.lukezgd.aquila-migrator
-Version: 2.1-2
+Version: 2.1-1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
-Depends: firmware (>= 4.3), firmware (<= 7.1.2)
+Depends: firmware (>= 6.0), firmware (<= 7.1.2)
 Conflicts: cy+cpu.arm64, com.lukezgd.pangu7-migrator
 Filename: debs/com.lukezgd.aquila-migrator.deb
-Size: 45868
-MD5sum: 35825b71803c43efc2fda348eaa18903
-SHA1: 789e26a683bb6ce17aaf37bd98f0907c729851f5
-SHA256: ad70cdad7402cbeaa7a9c6acd9f552d90a10bb169d68b08bc98eaf5c8ee63d3f
+Size: 45884
+MD5sum: 081d3304b2d09550b2fd9c600c2cfc23
+SHA1: adb3376a76b43bdf5073cf10f9816014a16a8515
+SHA256: 10a91f2f4a74a8ef8c68b4c0879e1979184ece0ed33fb78a31815a8b1428ee3b
 Section: System
 Description: Migrate from other iOS 4.3.x/5/6/7 jailbreaks to Aquila v2.1 Untether. Can also be used to upgrade older Aquila/Lyncis installs. Remove this package after the migration process.
 Author: LukeZGD
