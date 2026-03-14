@@ -212,32 +212,32 @@ Author: iOS Creatix, kasiimh1
 Name: SugarCane
 
 Package: com.lukezgd.aquila-migrator
-Version: 2.1-1
+Version: 2.1-2
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
-Depends: firmware (>= 6.0), firmware (<= 7.1.2)
+Depends: firmware (>= 4.3), firmware (<= 7.1.2)
 Conflicts: cy+cpu.arm64, com.lukezgd.pangu7-migrator
 Filename: debs/com.lukezgd.aquila-migrator.deb
-Size: 45884
-MD5sum: 081d3304b2d09550b2fd9c600c2cfc23
-SHA1: adb3376a76b43bdf5073cf10f9816014a16a8515
-SHA256: 10a91f2f4a74a8ef8c68b4c0879e1979184ece0ed33fb78a31815a8b1428ee3b
+Size: 45868
+MD5sum: 35825b71803c43efc2fda348eaa18903
+SHA1: 789e26a683bb6ce17aaf37bd98f0907c729851f5
+SHA256: ad70cdad7402cbeaa7a9c6acd9f552d90a10bb169d68b08bc98eaf5c8ee63d3f
 Section: System
 Description: Migrate from other iOS 4.3.x/5/6/7 jailbreaks to Aquila v2.1 Untether. Can also be used to upgrade older Aquila/Lyncis installs. Remove this package after the migration process.
 Author: LukeZGD
 Name: Aquila Migrator
 
 Package: com.lukezgd.aquila-unmigrator
-Version: 2.1
+Version: 2.1-2
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: firmware (>= 4.3), firmware (<= 7.1.2)
 Conflicts: cy+cpu.arm64
 Filename: debs/com.lukezgd.aquila-unmigrator.deb
-Size: 1278
-MD5sum: df21eff83fb558d929e160a44a65fe0d
-SHA1: a04949a06f8682775281715bc1598365d4b68623
-SHA256: 1eb37016eb97b0e7ef1c7f79b1ee805e71d20041d57698abb06cf8a510870960
+Size: 1300
+MD5sum: 94a1c1216751e7049d3b3e78cc5dd38b
+SHA1: 379bfaf95e877927c69f1203ef093d92842d76be
+SHA256: 870dcf4f3fb83ad580c0c32ce2f618265668183b3c592da92e0c027d7ff1a481
 Section: System
 Description: Revert changes made by Aquila Migrator. Remove this package after the unmigration process.
 Author: LukeZGD
@@ -308,21 +308,6 @@ Name: EverUntether Migrator
 
 Package: com.lukezgd.gaster
 Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: LukeZGD
-Depends: firmware (>= 9.0), com.ra9stuff.accessoryalertblocker
-Filename: debs/com.lukezgd.gaster_1.0.1_iphoneos-arm.deb
-Size: 37080
-MD5sum: 2536961d7346a26f77988337efcaf88a
-SHA1: 7466e70c430a8a78180d8204f0f87a42a25651bb
-SHA256: 64937908bb627b2d065d72342dc72b251cf53725458daff41d2238836d50cddd
-Section: System
-Description: Pwning tool for A7-A11 devices.
-Author: 0x7ff
-Name: gaster
-
-Package: com.lukezgd.gaster
-Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: LukeZGD
 Depends: firmware (>= 15.0), com.ra9stuff.accessoryalertblocker
@@ -331,6 +316,21 @@ Size: 37114
 MD5sum: c8c7433703bd13f578d2eadbcededbe4
 SHA1: cb281cfc4545867862cbb301777ccc6208ddcdbb
 SHA256: 2dfb65771f65287c4a52977f8adff2bc6d942331a9f072421f614b1b73940c25
+Section: System
+Description: Pwning tool for A7-A11 devices.
+Author: 0x7ff
+Name: gaster
+
+Package: com.lukezgd.gaster
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 9.0), com.ra9stuff.accessoryalertblocker
+Filename: debs/com.lukezgd.gaster_1.0.1_iphoneos-arm.deb
+Size: 37080
+MD5sum: 2536961d7346a26f77988337efcaf88a
+SHA1: 7466e70c430a8a78180d8204f0f87a42a25651bb
+SHA256: 64937908bb627b2d065d72342dc72b251cf53725458daff41d2238836d50cddd
 Section: System
 Description: Pwning tool for A7-A11 devices.
 Author: 0x7ff
