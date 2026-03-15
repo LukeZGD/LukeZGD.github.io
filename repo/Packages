@@ -258,6 +258,22 @@ Section: System
 Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
 Name: Dropbear
 
+Package: com.lukezgd.evasi0n7-migrator
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 7.0), firmware (<= 7.0.6), com.evad3rs.evasi0n7
+Conflicts: cy+cpu.arm64
+Filename: debs/com.lukezgd.evasi0n7-migrator.deb
+Size: 1234
+MD5sum: 12154d210960c5bb4242cd42ed61edc8
+SHA1: 9d06110c725f5573d911d67115f3e876e7892787
+SHA256: b9fefde91a080ef0039bef51b873bd5ff252ff5aa25660276610073b0f991a4f
+Section: System
+Description: Migrate from Aquila Untether to evasi0n7 Untether. Remove this package after the migration process.
+Author: LukeZGD
+Name: evasi0n7 Migrator
+
 Package: com.lukezgd.everuntether
 Version: 1.3.6
 Architecture: iphoneos-arm
@@ -365,6 +381,22 @@ Section: System
 Description: More device support for kDFUApp
 Author: LukeZGD
 Name: kDFUApp Bundles
+
+Package: com.lukezgd.pangu7-migrator
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 7.1), firmware (<= 7.1.2), io.pangu.axe7 (>= 0.3)
+Conflicts: cy+cpu.arm64
+Filename: debs/com.lukezgd.pangu7-migrator.deb
+Size: 1238
+MD5sum: 6edf82d222deed9a178562aaea534ef7
+SHA1: 9f0e142dad2493e5b60d4d49b8156cf770425ac7
+SHA256: 23b3b14dfb1c6263a3e63234ac6b77c539060990e3ac6b8b0a8d6a74afca03b8
+Section: System
+Description: Migrate from Lyncis/Aquila Untether to Pangu7 Untether. Remove this package after the migration process.
+Author: LukeZGD
+Name: Pangu7 Migrator
 
 Package: com.parrotgeek.ifilefix
 Version: 1.0
@@ -608,6 +640,23 @@ Description: Utilities for my tweaks.
 Tag: role::developer
 Author: Ayden Panhuyzen
 Name: libdundas
+
+Package: io.pangu.axe7
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
+Filename: debs/io.pangu.axe7_0.3_iphoneos-arm.deb
+Size: 107276
+MD5sum: 3d86ef34bda9287e6081dda95b7593dd
+SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
+SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
+Section: System
+Priority: optional
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
+Name: Pangu 7.1-7.1.x Untether
 
 Package: ipwnderlite
 Version: 1.0.71
