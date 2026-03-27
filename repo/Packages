@@ -542,6 +542,23 @@ Description: blocks downloading accessory firmware alert.
 Author: rA9stuff
 Name: accessoryalertblocker
 
+Package: com.staturnz.iocaste
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: staturnz
+Depends: firmware (>= 9.3.5), firmware (<< 10.0)
+Conflicts: cy+cpu.arm64
+Filename: debs/com.staturnz.iocaste_1.0_iphoneos-arm.deb
+Size: 184512
+MD5sum: e6f0f7e6f8a8e41c34efed1f11a231a4
+SHA1: 694da02b56f76b0132875afc24fe4bdbba985484
+SHA256: 82bed58236d1d3cebea9d849df4d11da36d5a3cc2c899acf05b985354fb20ad2
+Section: Untether
+Priority: optional
+Description: iocaste untether for iOS 9.3.5/6
+Author: staturnz
+Name: iocaste untether
+
 Package: com.tomaszpoliszuk.magsafecontroller
 Version: 1.1.3
 Architecture: iphoneos-arm
