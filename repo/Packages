@@ -833,3 +833,20 @@ Author: tihmstar
 Dev: tihmstar
 Name: kDFUApp
 
+Package: uk.invoxiplaygames.cydiahttpatch2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 100
+Depends: cydia, mobilesubstrate, firmware (>= 4.0)
+Conflicts: uk.invoxiplaygames.cydiahttpatch
+Filename: debs/cydiahttpatch2.deb
+Size: 4452
+MD5sum: f155308057f7bc5a5ca95ac02375d415
+SHA1: b9c113a2fcc326de93855a212a42b2089e591a0b
+SHA256: d2b08a7c0cd1dddf29cd143de1f410ba2252d06eaceee461fc6a39fcf513cb8a
+Section: Tweaks
+Description: Removes HTTPS from Cydia.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Name: Cydia HTTPatch (iOS 4+)
+
