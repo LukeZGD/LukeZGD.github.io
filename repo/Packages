@@ -243,6 +243,22 @@ Description: Revert changes made by Aquila Migrator. Remove this package after t
 Author: LukeZGD
 Name: Aquila Unmigrator
 
+Package: com.lukezgd.cydiawebviewmodifier
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Installed-Size: 88
+Depends: cydia, mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.lukezgd.cydiawebviewmodifier_1.0_iphoneos-arm.deb
+Size: 5232
+MD5sum: f6fba5ccc48d3333f1fd998f909aa2b6
+SHA1: 0cbdbd04a53f68a35a02bc01cc0ca6b499972ea4
+SHA256: 5bff624321c2109288330c46ac020884b93863675fbbd907ad0471fb644443d2
+Section: Tweaks
+Description: Modify URL loaded in Cydia webviews
+Author: LukeZGD
+Name: Cydia Webview Modifier
+
 Package: com.lukezgd.dropbear
 Version: 1.0.3
 Architecture: iphoneos-arm
