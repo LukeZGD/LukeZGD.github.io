@@ -643,16 +643,16 @@ Author: Ayden Panhuyzen
 Name: libdundas
 
 Package: dev.playday3008.wififixoldios
-Version: 0.1.0
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: PlayDay
-Installed-Size: 152
+Installed-Size: 164
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/dev.playday3008.wififixoldios_0.1.0_iphoneos-arm.deb
-Size: 6002
-MD5sum: 39c1b94dfacaf2a8fa402445c37f3c64
-SHA1: 8948a92afb47499e7f442ce38e8240b2bf1ad253
-SHA256: 85a7c9d16684230bec56dc36d57014cffd0773c7558b006d042bf577acb1278c
+Filename: debs/dev.playday3008.wififixoldios_0.1.1_iphoneos-arm.deb
+Size: 6346
+MD5sum: e10f2de64074e044430fb846bce1504b
+SHA1: 8f0bb9c8f5f5cf24cf506b310fbd2dddfcf75967
+SHA256: a1fac6456fc1b2abc8b85b4a5be8d3c56a32374a76c8e293f88eb5f51a6d9c0f
 Section: Tweaks
 Description: Fixes WiFi connectivity to WPA2/WPA3 transitional networks on iOS 9.x–12.x by filtering unsupported AKM suites from RSN IE parsing.
 Author: PlayDay
