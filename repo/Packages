@@ -48,27 +48,6 @@ Name: appinst (App Installer)
 
 Package: ai.akemi.appsyncunified
 Version: 116.1
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 636
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 26.0)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/ai.akemi.appsyncunified_116.1_iphoneos-arm.deb
-Size: 78430
-MD5sum: 838ae710ab3d3c1d5a82bf0e716c0f9d
-SHA1: c10d0f1bbb7644a6d911801d92ecf02ce1795a42
-SHA256: ed4bf5a4a0ee37af157a9aad92050239ec67b83a60f1b39897b43b3db13a8ff5
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Name: AppSync Unified
-
-Package: ai.akemi.appsyncunified
-Version: 116.1
 Architecture: iphoneos-arm64
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 668
@@ -81,6 +60,27 @@ Size: 77706
 MD5sum: a89748ab2388f6f6921a3a1732808bbe
 SHA1: dba5ce2e39fd2bb149f94750efa60a3b9e20eb78
 SHA256: 029de0bace218a414870d1faeb71ed8b1f81b219f2b9e1b60157cd3ea36915fd
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: ai.akemi.appsyncunified
+Version: 116.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 26.0)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_116.2_iphoneos-arm.deb
+Size: 78580
+MD5sum: 4ecec5319346560a6355ccafd7f9826d
+SHA1: ee8fdded08ef778c625180d81fbe74a97988dba0
+SHA256: cd700c91f746cf3a58ac534d43d4ff8278ffb9b92683456649bbba431adfe76e
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
