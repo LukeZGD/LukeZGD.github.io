@@ -1,29 +1,5 @@
 Package: ai.akemi.appinst
 Version: 2.1.1
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 364
-Pre-Depends: firmware (>= 5.0)
-Depends: ai.akemi.appsyncunified (>= 5.1)
-Conflicts: com.sull.appinstaller
-Replaces: com.linusyang.appinst
-Provides: com.linusyang.appinst
-Filename: debs/ai.akemi.appinst_2.1.1_iphoneos-arm~akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
-Size: 59716
-MD5sum: 891aef5b77f11e286edd1440dd905943
-SHA1: 86f090c7e88452fb89baf14beacbb26d2392003e
-SHA256: 5997771183c39eb8b5e13fc2bb511b1dfcb7eb39d3f10c9092ab088ec34aae09
-Section: Utilities
-Priority: standard
-Homepage: https://github.com/akemin-dayo/AppSync
-Description: A command-line IPA app installer.
-Tag: role::enduser, purpose::console
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
-Name: appinst (App Installer)
-
-Package: ai.akemi.appinst
-Version: 2.1.1
 Architecture: iphoneos-arm64
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 364
@@ -37,6 +13,30 @@ Size: 59538
 MD5sum: e6d2a75aca6914175323aa421dd8ba1a
 SHA1: 1af6238bedc0cb46528c0f1b601229e2314f5eba
 SHA256: 71d53a9d7f7b5c90f2fa43fff30dbce842e48f219011c8febb4439ffc5f461e2
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: A command-line IPA app installer.
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
+Name: appinst (App Installer)
+
+Package: ai.akemi.appinst
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 364
+Pre-Depends: firmware (>= 5.0)
+Depends: ai.akemi.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Replaces: com.linusyang.appinst
+Provides: com.linusyang.appinst
+Filename: debs/ai.akemi.appinst_2.1.1_iphoneos-arm~akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 59716
+MD5sum: 891aef5b77f11e286edd1440dd905943
+SHA1: 86f090c7e88452fb89baf14beacbb26d2392003e
+SHA256: 5997771183c39eb8b5e13fc2bb511b1dfcb7eb39d3f10c9092ab088ec34aae09
 Section: Utilities
 Priority: standard
 Homepage: https://github.com/akemin-dayo/AppSync
@@ -157,15 +157,15 @@ Sileodepiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/c
 
 Package: com.creaturesurvive.libcscolorpicker
 Version: 1.0.6
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 960
 Pre-Depends: firmware (>= 7.0)
-Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm.deb
-Size: 149628
-MD5sum: a595a5e7e5e62502b741249c039d6328
-SHA1: 444a9abd9ee260bed98e432b356b9a3b34c8b2b7
-SHA256: a94cf0ad8d13f4d03e390ea244906834b0e93acc4be5f305628ca50d3e9022a2
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm64.deb
+Size: 206352
+MD5sum: bc3b47252a5f1ac8c0cc1e4e28cc4891
+SHA1: de1df8e04e647361adaf8ded1d2061ee8f91dc17
+SHA256: 8bda84f9bee823a35e50baf62d30216a1b954ff2eb1862d933988808592a30f8
 Section: System
 Homepage: https://creaturecoding.com/
 Description: A minimal color picker library for developers
@@ -177,15 +177,15 @@ Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolo
 
 Package: com.creaturesurvive.libcscolorpicker
 Version: 1.0.6
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 960
 Pre-Depends: firmware (>= 7.0)
-Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm64.deb
-Size: 206352
-MD5sum: bc3b47252a5f1ac8c0cc1e4e28cc4891
-SHA1: de1df8e04e647361adaf8ded1d2061ee8f91dc17
-SHA256: 8bda84f9bee823a35e50baf62d30216a1b954ff2eb1862d933988808592a30f8
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm.deb
+Size: 149628
+MD5sum: a595a5e7e5e62502b741249c039d6328
+SHA1: 444a9abd9ee260bed98e432b356b9a3b34c8b2b7
+SHA256: a94cf0ad8d13f4d03e390ea244906834b0e93acc4be5f305628ca50d3e9022a2
 Section: System
 Homepage: https://creaturecoding.com/
 Description: A minimal color picker library for developers
@@ -224,6 +224,22 @@ SHA1: 263a4694968a33191972492cc5dc1736c292ba04
 SHA256: 31ee2c9b3b651272fd307aa572634541bbb4e8a06e2db500c3bcf4a188966b57
 Section: System
 Description: Migrate from other iOS 4.3.x/5/6/7 jailbreaks to Aquila v2.1 Untether. Can also be used to upgrade older Aquila/Lyncis installs. Remove this package after the migration process.
+Author: LukeZGD
+Name: Aquila Migrator
+
+Package: com.lukezgd.aquila-migrator
+Version: 2.1-5
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 4.3), firmware (<= 7.1.2)
+Conflicts: cy+cpu.arm64, com.lukezgd.pangu7-migrator
+Filename: debs/com.lukezgd.aquila-migrator-v2.1-5.deb
+Size: 71820
+MD5sum: d60d945921861956e60f6d76fe22751e
+SHA1: df064daf7d471eac3294921349a68f7b1944752c
+SHA256: 7dfac9d6f23e743899613808257416224e82815a358f4fa77961eee1eb002bcd
+Section: System
+Description: Migrate from other iOS 4.3.x/5/6/7 jailbreaks to Aquila Untether. Can also be used to upgrade older Aquila/Lyncis installs. Remove this package after the migration process.
 Author: LukeZGD
 Name: Aquila Migrator
 
@@ -324,21 +340,6 @@ Name: EverUntether Migrator
 
 Package: com.lukezgd.gaster
 Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: LukeZGD
-Depends: firmware (>= 9.0), com.ra9stuff.accessoryalertblocker
-Filename: debs/com.lukezgd.gaster_1.0.1_iphoneos-arm.deb
-Size: 37080
-MD5sum: 2536961d7346a26f77988337efcaf88a
-SHA1: 7466e70c430a8a78180d8204f0f87a42a25651bb
-SHA256: 64937908bb627b2d065d72342dc72b251cf53725458daff41d2238836d50cddd
-Section: System
-Description: Pwning tool for A7-A11 devices.
-Author: 0x7ff
-Name: gaster
-
-Package: com.lukezgd.gaster
-Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: LukeZGD
 Depends: firmware (>= 15.0), com.ra9stuff.accessoryalertblocker
@@ -347,6 +348,21 @@ Size: 37114
 MD5sum: c8c7433703bd13f578d2eadbcededbe4
 SHA1: cb281cfc4545867862cbb301777ccc6208ddcdbb
 SHA256: 2dfb65771f65287c4a52977f8adff2bc6d942331a9f072421f614b1b73940c25
+Section: System
+Description: Pwning tool for A7-A11 devices.
+Author: 0x7ff
+Name: gaster
+
+Package: com.lukezgd.gaster
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 9.0), com.ra9stuff.accessoryalertblocker
+Filename: debs/com.lukezgd.gaster_1.0.1_iphoneos-arm.deb
+Size: 37080
+MD5sum: 2536961d7346a26f77988337efcaf88a
+SHA1: 7466e70c430a8a78180d8204f0f87a42a25651bb
+SHA256: 64937908bb627b2d065d72342dc72b251cf53725458daff41d2238836d50cddd
 Section: System
 Description: Pwning tool for A7-A11 devices.
 Author: 0x7ff
@@ -528,22 +544,6 @@ Name: ModernUI Plus
 
 Package: com.ra9stuff.accessoryalertblocker
 Version: 0.0.1-2
-Architecture: iphoneos-arm
-Maintainer: rA9stuff
-Installed-Size: 216
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.ra9stuff.accessoryalertblocker_0.0.1_iphoneos-arm.deb
-Size: 4908
-MD5sum: fd284f54ce49e93397e462947f5f1ad2
-SHA1: 3518e993db934723dfaaf5b7fd83f3d49b10c4c1
-SHA256: a5663a19248dce79aa74b7f23b75b3dc893260012cfa9ff908675721da0f9844
-Section: Tweaks
-Description: blocks downloading accessory firmware alert.
-Author: rA9stuff
-Name: accessoryalertblocker
-
-Package: com.ra9stuff.accessoryalertblocker
-Version: 0.0.1-2
 Architecture: iphoneos-arm64
 Maintainer: rA9stuff
 Installed-Size: 216
@@ -553,6 +553,22 @@ Size: 4970
 MD5sum: c585aca0c818a74d52b2e045b29d9fd2
 SHA1: ab44734d1b78494d2bbf3d61c5e79f6959aa4d79
 SHA256: a38c9303115330e1abc471bc21136622c532255c4a1a35dfd82143255a656760
+Section: Tweaks
+Description: blocks downloading accessory firmware alert.
+Author: rA9stuff
+Name: accessoryalertblocker
+
+Package: com.ra9stuff.accessoryalertblocker
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.ra9stuff.accessoryalertblocker_0.0.1_iphoneos-arm.deb
+Size: 4908
+MD5sum: fd284f54ce49e93397e462947f5f1ad2
+SHA1: 3518e993db934723dfaaf5b7fd83f3d49b10c4c1
+SHA256: a5663a19248dce79aa74b7f23b75b3dc893260012cfa9ff908675721da0f9844
 Section: Tweaks
 Description: blocks downloading accessory firmware alert.
 Author: rA9stuff
@@ -746,14 +762,14 @@ Name: libpartialzip-1.0.0
 
 Package: me.jjolano.alertdismiss
 Version: 1.0.4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: jjolano <jjolano@me.com>
 Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
-Filename: debs/me.jjolano.alertdismiss.deb
-Size: 25240
-MD5sum: 2282ea8ff09e382807e1aa3399996d8d
-SHA1: a0d8427704e3e458e1ed7c373d1ff236c58e1ffc
-SHA256: d7ad8fa1edf908499c807075ee62b947cd1b329300d0dc12cdf79171e69f2fb1
+Filename: debs/me.jjolano.alertdismiss_1.0.4_iphoneos-arm64.deb
+Size: 14936
+MD5sum: aafdecff1cda78f7877a373dcf4c0e07
+SHA1: 9b4ad7ec99a3b1480af36fc7f4dceb31b5bb1167
+SHA256: 33ef491d32f1f7642b0710aba11db3ad5c11bde9800f92d2ce46a62544b23872
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: Add a Force Dismiss button to any UIAlertController.
@@ -766,14 +782,14 @@ Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.
 
 Package: me.jjolano.alertdismiss
 Version: 1.0.4
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: jjolano <jjolano@me.com>
 Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
-Filename: debs/me.jjolano.alertdismiss_1.0.4_iphoneos-arm64.deb
-Size: 14936
-MD5sum: aafdecff1cda78f7877a373dcf4c0e07
-SHA1: 9b4ad7ec99a3b1480af36fc7f4dceb31b5bb1167
-SHA256: 33ef491d32f1f7642b0710aba11db3ad5c11bde9800f92d2ce46a62544b23872
+Filename: debs/me.jjolano.alertdismiss.deb
+Size: 25240
+MD5sum: 2282ea8ff09e382807e1aa3399996d8d
+SHA1: a0d8427704e3e458e1ed7c373d1ff236c58e1ffc
+SHA256: d7ad8fa1edf908499c807075ee62b947cd1b329300d0dc12cdf79171e69f2fb1
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: Add a Force Dismiss button to any UIAlertController.
