@@ -1,22 +1,5 @@
 Package: libkrw-dev
 Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 16
-Depends: libkrw0 (= 1.1.2)
-Filename: debs/libkrw-dev_1.1.2_iphoneos-arm64.deb
-Size: 4352
-MD5sum: 485ab1c7200f2332b3d827adf844b0cb
-SHA1: b2a528b1b34d342f13b9bb875647a77b3673805d
-SHA256: c913f19c3756f34a418093c29d9a0726a450ae3437b5e4ed5016638cf264d19b
-Section: Development
-Priority: optional
-Homepage: https://github.com/Cryptiiiic/libkrw
-Description: A kernel R/W API for jailbreaks (Development Files)
-Author: Cryptiiiic
-
-Package: libkrw-dev
-Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 16
@@ -26,6 +9,23 @@ Size: 4164
 MD5sum: c740592fcea91c6783cdfd45ac1d6f4c
 SHA1: 3d30a83971b40412f9e8580a2e10f56088697259
 SHA256: cab69bd7801f5405208f364fdb7e27b759f42809441d72cdd09331c7f099cfa0
+Section: Development
+Priority: optional
+Homepage: https://github.com/Cryptiiiic/libkrw
+Description: A kernel R/W API for jailbreaks (Development Files)
+Author: Cryptiiiic
+
+Package: libkrw-dev
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 16
+Depends: libkrw0 (= 1.1.2)
+Filename: debs/libkrw-dev_1.1.2_iphoneos-arm64.deb
+Size: 4352
+MD5sum: 485ab1c7200f2332b3d827adf844b0cb
+SHA1: b2a528b1b34d342f13b9bb875647a77b3673805d
+SHA256: c913f19c3756f34a418093c29d9a0726a450ae3437b5e4ed5016638cf264d19b
 Section: Development
 Priority: optional
 Homepage: https://github.com/Cryptiiiic/libkrw
@@ -70,6 +70,25 @@ Author: Cryptiiiic
 
 Package: libkrw0-tfp0
 Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 56
+Depends: libiosexec1 (>= 1.3.1)
+Enhances: libkrw0
+Provides: libkrw0-plugin
+Filename: debs/libkrw0-tfp0_1.1.2_rootful_iphoneos-arm.deb
+Size: 5404
+MD5sum: 0187043cf61689ba5cc0d408f34f12e9
+SHA1: bbea6974e1bcdbf3022177e9aabc5649f4d0505a
+SHA256: edc2d48c526e3a5631c5011a92968294a550ce21db4018bf830a6cadc419f645
+Section: Libraries
+Priority: standard
+Homepage: https://github.com/Cryptiiiic/libkrw
+Description: Plugin for libkrw that interfaces with tfp0/hgsp4 (Shared Library)
+Author: Cryptiiiic
+
+Package: libkrw0-tfp0
+Version: 1.1.2
 Architecture: iphoneos-arm64
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 56
@@ -87,23 +106,22 @@ Homepage: https://github.com/Cryptiiiic/libkrw
 Description: Plugin for libkrw that interfaces with tfp0/hgsp4 (Shared Library)
 Author: Cryptiiiic
 
-Package: libkrw0-tfp0
-Version: 1.1.2
+Package: libx8a4-1
+Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 56
-Depends: libiosexec1 (>= 1.3.1)
-Enhances: libkrw0
-Provides: libkrw0-plugin
-Filename: debs/libkrw0-tfp0_1.1.2_rootful_iphoneos-arm.deb
-Size: 5404
-MD5sum: 0187043cf61689ba5cc0d408f34f12e9
-SHA1: bbea6974e1bcdbf3022177e9aabc5649f4d0505a
-SHA256: edc2d48c526e3a5631c5011a92968294a550ce21db4018bf830a6cadc419f645
+Installed-Size: 240
+Depends: libiosexec1 (>= 1.3.1), libkrw0
+Provides: libx8a4-1 (= 1.0.2)
+Filename: debs/libx8a4-1_1.0.2_rootful_iphoneos-arm.deb
+Size: 77792
+MD5sum: dbde92f978d6c1eb8281430d5219f90b
+SHA1: 54c5c34602574ac1aac3fa819ed4b45373aec54a
+SHA256: db2a92e14aed2002bd23025c82f36cd255bb69cb734c3b06287bf14a589b3a2c
 Section: Libraries
 Priority: standard
-Homepage: https://github.com/Cryptiiiic/libkrw
-Description: Plugin for libkrw that interfaces with tfp0/hgsp4 (Shared Library)
+Homepage: https://github.com/Cryptiiiic/x8A4
+Description: An all-in-one tool for firmware nonces, seeds, and downgrade support (Shared Library)
 Author: Cryptiiiic
 
 Package: libx8a4-1
@@ -125,17 +143,17 @@ Description: An all-in-one tool for firmware nonces, seeds, and downgrade suppor
 Author: Cryptiiiic
 
 Package: libx8a4-1
-Version: 1.0.2
-Architecture: iphoneos-arm
+Version: 1.0.2-1
+Architecture: iphoneos-arm64
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 240
 Depends: libiosexec1 (>= 1.3.1), libkrw0
-Provides: libx8a4-1 (= 1.0.2)
-Filename: debs/libx8a4-1_1.0.2_rootful_iphoneos-arm.deb
-Size: 77792
-MD5sum: dbde92f978d6c1eb8281430d5219f90b
-SHA1: 54c5c34602574ac1aac3fa819ed4b45373aec54a
-SHA256: db2a92e14aed2002bd23025c82f36cd255bb69cb734c3b06287bf14a589b3a2c
+Provides: libx8a4-1 (= 1.0.2-1)
+Filename: debs/libx8a4-1_1.0.2-1_iphoneos-arm64.deb
+Size: 201652
+MD5sum: f2fca492488983f660dcad51d0ca20fc
+SHA1: 55cdbecff6a6c7a1891ee6510bc59eb8c448bb0d
+SHA256: f0fa2d2188b6307890b442a9e64e44c7c0cddae7d71a526523524cab0c65c8aa
 Section: Libraries
 Priority: standard
 Homepage: https://github.com/Cryptiiiic/x8A4
@@ -178,25 +196,6 @@ Author: Cryptiiiic
 
 Package: x8a4
 Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 92
-Depends: libiosexec1 (>= 1.3.1), libx8a4-1 (= 1.0.2)
-Enhances: dimentio
-Filename: debs/x8a4_1.0.2_iphoneos-arm64.deb
-Size: 7914
-MD5sum: d68b5efa7abdd844cb5564b4b7908f78
-SHA1: 5e643909f26c511159ec2238acd78b389f6ff987
-SHA256: ec6ad6937b092096b10d6722bdf93f734b2f4d9007b7dd8e43285f5b9f2b13b4
-Section: Utilities
-Priority: optional
-Homepage: https://github.com/Cryptiiiic/x8A4
-Description: An all-in-one tool for firmware nonces, seeds, and downgrade support
-Author: Cryptiiiic
-Name: x8A4
-
-Package: x8a4
-Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 92
@@ -207,6 +206,25 @@ Size: 7834
 MD5sum: a444035ab0594ef6e61744cb64c187cf
 SHA1: 3e33ea953d1715158a7c30d6b9b11e67d1da6d4b
 SHA256: b284203d0e6b9586d333b14627b492a5856e116d3d24ef79788665ada1ab93a9
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/Cryptiiiic/x8A4
+Description: An all-in-one tool for firmware nonces, seeds, and downgrade support
+Author: Cryptiiiic
+Name: x8A4
+
+Package: x8a4
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 92
+Depends: libiosexec1 (>= 1.3.1), libx8a4-1 (= 1.0.2)
+Enhances: dimentio
+Filename: debs/x8a4_1.0.2_iphoneos-arm64.deb
+Size: 7914
+MD5sum: d68b5efa7abdd844cb5564b4b7908f78
+SHA1: 5e643909f26c511159ec2238acd78b389f6ff987
+SHA256: ec6ad6937b092096b10d6722bdf93f734b2f4d9007b7dd8e43285f5b9f2b13b4
 Section: Utilities
 Priority: optional
 Homepage: https://github.com/Cryptiiiic/x8A4
