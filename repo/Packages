@@ -658,6 +658,25 @@ Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/M
 Name: MagSafe Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: curl
+Version: 7.58.0-2
+Architecture: iphoneos-arm
+Maintainer: Samuel Bingner
+Installed-Size: 2112
+Depends: firmware (>= 5.0)
+Filename: debs/curl_7.58.0-2_iphoneos-arm.deb
+Size: 520812
+MD5sum: f34441278487aa8e69f86c64cbcc065c
+SHA1: 442330138eb97dfc35e72cbabffa2dabe995dc53
+SHA256: b1afc31ec88e5085b0e227448c62d0b7599835ef3d8e0a90f9abe5cd62a95c9d
+Section: Networking
+Priority: standard
+Homepage: http://curl.haxx.se/
+Description: flexible multi-protocol file transfers
+Tag: purpose::console, role::hacker
+Author: Samuel Bingner
+Name: cURL
+
 Package: dev.ayden.ios.tweak.lib.libdundas
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -881,4 +900,40 @@ Description: easy way to get into kDFU mode
 Author: tihmstar
 Dev: tihmstar
 Name: kDFUApp
+
+Package: xz-utils
+Version: 5.3.0
+Architecture: iphoneos-arm
+Maintainer: Samuel Bingner
+Installed-Size: 1452
+Depends: grep, sed, lzma
+Filename: debs/xz-utils_5.3.0_iphoneos-arm.deb
+Size: 235622
+MD5sum: 50514a0cbd6609f1dd33b439b2d63f81
+SHA1: 9fb095d394b20586bfca9b5faba35178ff81c795
+SHA256: d3b9e012e41a96aa3ded4b823d099df2fa90604457fa9a375dc7ea96ebe56740
+Section: utils
+Priority: optional
+Homepage: http://tukaani.org/xz/
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+ * 'file' magic for detecting XZ files;
+ * crc64 data integrity check;
+ * limited random-access reading support;
+ * improved support for multithreading (not used in xz-utils);
+ * support for flushing the encoder.processes viewer
+Tag: purpose::console, role::hacker
+Name: XZ Utils
 
